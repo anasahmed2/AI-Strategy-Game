@@ -2,6 +2,7 @@ set(ENGINE_SOURCES
     Core/Engine.cpp
     Math/Vector2.cpp
     ECS/Entity.cpp
+    ECS/System.cpp
     ECS/ComponentRegistry.cpp
     Systems/InputSystem.cpp
     Systems/RenderSystem.cpp
@@ -17,7 +18,6 @@ set(ENGINE_SOURCES
 
 set(ENGINE_HEADERS
     Core/Engine.h
-    Core/GameLoop.h
     Math/Vector2.h
     Math/Vector3.h
     ECS/ComponentRegistry.h
