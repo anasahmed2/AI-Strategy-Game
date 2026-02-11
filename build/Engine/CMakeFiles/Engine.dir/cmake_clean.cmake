@@ -1,0 +1,39 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/Engine.dir/AI/AISystem.cpp.o"
+  "CMakeFiles/Engine.dir/AI/AISystem.cpp.o.d"
+  "CMakeFiles/Engine.dir/AI/BehaviorTree.cpp.o"
+  "CMakeFiles/Engine.dir/AI/BehaviorTree.cpp.o.d"
+  "CMakeFiles/Engine.dir/AI/StateMachine.cpp.o"
+  "CMakeFiles/Engine.dir/AI/StateMachine.cpp.o.d"
+  "CMakeFiles/Engine.dir/Core/Engine.cpp.o"
+  "CMakeFiles/Engine.dir/Core/Engine.cpp.o.d"
+  "CMakeFiles/Engine.dir/ECS/ComponentRegistry.cpp.o"
+  "CMakeFiles/Engine.dir/ECS/ComponentRegistry.cpp.o.d"
+  "CMakeFiles/Engine.dir/ECS/Entity.cpp.o"
+  "CMakeFiles/Engine.dir/ECS/Entity.cpp.o.d"
+  "CMakeFiles/Engine.dir/ECS/System.cpp.o"
+  "CMakeFiles/Engine.dir/ECS/System.cpp.o.d"
+  "CMakeFiles/Engine.dir/Math/Vector2.cpp.o"
+  "CMakeFiles/Engine.dir/Math/Vector2.cpp.o.d"
+  "CMakeFiles/Engine.dir/Pathfinding/Pathfinder.cpp.o"
+  "CMakeFiles/Engine.dir/Pathfinding/Pathfinder.cpp.o.d"
+  "CMakeFiles/Engine.dir/Systems/CombatSystem.cpp.o"
+  "CMakeFiles/Engine.dir/Systems/CombatSystem.cpp.o.d"
+  "CMakeFiles/Engine.dir/Systems/EventSystem.cpp.o"
+  "CMakeFiles/Engine.dir/Systems/EventSystem.cpp.o.d"
+  "CMakeFiles/Engine.dir/Systems/InputSystem.cpp.o"
+  "CMakeFiles/Engine.dir/Systems/InputSystem.cpp.o.d"
+  "CMakeFiles/Engine.dir/Systems/PhysicsSystem.cpp.o"
+  "CMakeFiles/Engine.dir/Systems/PhysicsSystem.cpp.o.d"
+  "CMakeFiles/Engine.dir/Systems/RenderSystem.cpp.o"
+  "CMakeFiles/Engine.dir/Systems/RenderSystem.cpp.o.d"
+  "CMakeFiles/Engine.dir/Systems/ResourceSystem.cpp.o"
+  "CMakeFiles/Engine.dir/Systems/ResourceSystem.cpp.o.d"
+  "libEngine.a"
+  "libEngine.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/Engine.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

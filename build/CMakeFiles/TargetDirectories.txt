@@ -1,0 +1,8 @@
+/mnt/c/Users/Anas/AI-Strategy-Game/build/CMakeFiles/edit_cache.dir
+/mnt/c/Users/Anas/AI-Strategy-Game/build/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/Anas/AI-Strategy-Game/build/Engine/CMakeFiles/Engine.dir
+/mnt/c/Users/Anas/AI-Strategy-Game/build/Engine/CMakeFiles/edit_cache.dir
+/mnt/c/Users/Anas/AI-Strategy-Game/build/Engine/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/Anas/AI-Strategy-Game/build/Game/CMakeFiles/AIStrategyGame.dir
+/mnt/c/Users/Anas/AI-Strategy-Game/build/Game/CMakeFiles/edit_cache.dir
+/mnt/c/Users/Anas/AI-Strategy-Game/build/Game/CMakeFiles/rebuild_cache.dir
