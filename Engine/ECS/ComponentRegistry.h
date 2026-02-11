@@ -42,12 +42,12 @@ public:
     const std::unordered_map<EntityID, std::shared_ptr<Entity>>& getEntities() const;
     
     size_t getEntityCount() const;
+    
+    // When adding component to existing entity, notify all systems
+    void notifySystems(const std::shared_ptr<Entity>& entity);
 
 private:
     EntityID nextEntityId = 1;
     std::unordered_map<EntityID, std::shared_ptr<Entity>> entities;
     std::vector<std::shared_ptr<System>> systems;
-    
-    // When adding component to existing entity, notify all systems
-    void notifySystems(const std::shared_ptr<Entity>& entity);
 };

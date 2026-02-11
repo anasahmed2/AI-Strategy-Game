@@ -278,4 +278,5 @@ Engine/CMakeFiles/Engine.dir/Systems/RenderSystem.cpp.o: \
  /usr/include/SFML/Graphics/Glsl.hpp /usr/include/SFML/Graphics/Glsl.inl \
  /usr/include/SFML/Graphics/Sprite.hpp \
  /usr/include/SFML/Graphics/Text.hpp \
- /usr/include/SFML/Graphics/VertexBuffer.hpp
+ /usr/include/SFML/Graphics/VertexBuffer.hpp /usr/include/c++/11/iostream \
+ /usr/include/c++/11/istream /usr/include/c++/11/bits/istream.tcc

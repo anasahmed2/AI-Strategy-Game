@@ -1,4 +1,5 @@
 #include "RenderSystem.h"
+#include <iostream>
 #include <algorithm>
 
 void RenderSystem::update(float deltaTime) {
@@ -34,10 +35,22 @@ void RenderSystem::render() {
         
         if (!render->visible) continue;
         
-        // Draw as circle for now (simple debug rendering)
+        // Draw as circle with color based on type
         sf::CircleShape circle(render->width / 2.0f);
         circle.setPosition(transform->position.x, transform->position.y);
-        circle.setFillColor(sf::Color::Blue);
+        
+        // Color based on sprite ID
+        sf::Color color = sf::Color::White;
+        if (render->spriteId == "worker") color = sf::Color::Yellow;
+        else if (render->spriteId == "soldier") color = sf::Color::Green;
+        else if (render->spriteId == "tank") color = sf::Color(150, 150, 150); // Gray
+        else if (render->spriteId == "base") color = sf::Color::Blue;
+        else if (render->spriteId == "resource_mine") color = sf::Color(255, 165, 0); // Orange
+        else if (render->spriteId == "turret") color = sf::Color::Red;
+        
+        circle.setFillColor(color);
+        circle.setOutlineColor(sf::Color::Black);
+        circle.setOutlineThickness(2.0f);
         
         window->draw(circle);
     }

@@ -59,7 +59,7 @@ void Engine::update(float deltaTime) {
 }
 
 void Engine::render() {
-    window->clear(sf::Color::Black);
+    window->clear(sf::Color(40, 40, 40));  // Dark gray background
     
     // Render all entities
     renderSystem->render();

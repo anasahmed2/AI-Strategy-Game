@@ -5,7 +5,7 @@ void ResourceMine::setupComponents(Vector2 position) {
     
     auto render = entity->getComponent<RenderComponent>();
     if (render) {
-        render->spriteId = "resourcemine";
+        render->spriteId = "resource_mine";
     }
     
     // Resource collector to generate resources

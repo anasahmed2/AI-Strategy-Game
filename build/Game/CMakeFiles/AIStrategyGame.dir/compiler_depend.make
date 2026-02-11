@@ -1818,6 +1818,9 @@ Game/CMakeFiles/AIStrategyGame.dir/GameManager.cpp.o: ../Game/GameManager.cpp \
   /usr/include/c++/11/bits/stl_deque.h \
   /usr/include/c++/11/bits/deque.tcc \
   /usr/include/c++/11/bits/stl_queue.h \
+  /usr/include/c++/11/iostream \
+  /usr/include/c++/11/istream \
+  /usr/include/c++/11/bits/istream.tcc \
   ../Game/Units/Worker.h \
   ../Game/Units/Unit.h \
   ../Game/Units/Soldier.h \
@@ -3656,13 +3659,13 @@ Game/CMakeFiles/AIStrategyGame.dir/main.cpp.o: ../Game/main.cpp \
 
 /usr/include/c++/11/ratio:
 
-/usr/include/c++/11/bits/istream.tcc:
-
-/usr/include/c++/11/istream:
-
 ../Game/main.cpp:
 
 ../Game/Units/Worker.h:
+
+/usr/include/c++/11/bits/istream.tcc:
+
+/usr/include/c++/11/istream:
 
 ../Game/GameManager.cpp:
 

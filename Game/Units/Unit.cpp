@@ -12,6 +12,9 @@ std::shared_ptr<Entity> Unit::create(std::shared_ptr<Engine> engine, Vector2 pos
     // Setup AI
     setupAI();
     
+    // Notify systems that this entity is ready
+    engine->getRegistry()->notifySystems(entity);
+    
     return entity;
 }
 

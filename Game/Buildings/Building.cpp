@@ -9,6 +9,9 @@ std::shared_ptr<Entity> Building::create(std::shared_ptr<Engine> engine, Vector2
     // Setup components
     setupComponents(position);
     
+    // Notify systems that this entity is ready
+    engine->getRegistry()->notifySystems(entity);
+    
     return entity;
 }
 

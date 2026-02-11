@@ -295,7 +295,8 @@ Game/CMakeFiles/AIStrategyGame.dir/GameManager.cpp.o: \
  /mnt/c/Users/Anas/AI-Strategy-Game/Game/../Engine/Core/../Pathfinding/Pathfinder.h \
  /usr/include/c++/11/queue /usr/include/c++/11/deque \
  /usr/include/c++/11/bits/stl_deque.h /usr/include/c++/11/bits/deque.tcc \
- /usr/include/c++/11/bits/stl_queue.h \
+ /usr/include/c++/11/bits/stl_queue.h /usr/include/c++/11/iostream \
+ /usr/include/c++/11/istream /usr/include/c++/11/bits/istream.tcc \
  /mnt/c/Users/Anas/AI-Strategy-Game/Game/Units/Worker.h \
  /mnt/c/Users/Anas/AI-Strategy-Game/Game/Units/Unit.h \
  /mnt/c/Users/Anas/AI-Strategy-Game/Game/Units/Soldier.h \
