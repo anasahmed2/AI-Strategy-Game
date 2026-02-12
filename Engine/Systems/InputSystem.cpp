@@ -1,8 +1,7 @@
 #include "InputSystem.h"
 
 void InputSystem::update(float deltaTime) {
-    // Reset mouse button states each frame
-    // Real implementation would track mouse down vs just clicked
+    // Click events are consumed each frame
 }
 
 void InputSystem::setRequiredComponents() {
@@ -21,6 +20,15 @@ bool InputSystem::isMouseButtonPressed(int button) const {
     return false;
 }
 
+bool InputSystem::wasMouseButtonClicked(int button) {
+    if (button >= 0 && button < 3) {
+        bool clicked = mouseClicked[button];
+        mouseClicked[button] = false;  // Consume the click
+        return clicked;
+    }
+    return false;
+}
+
 bool InputSystem::isKeyPressed(sf::Keyboard::Key key) const {
     return sf::Keyboard::isKeyPressed(key);
 }
@@ -32,6 +40,9 @@ void InputSystem::handleEvent(const sf::Event& event) {
     } else if (event.type == sf::Event::MouseButtonPressed) {
         if (event.mouseButton.button < 3) {
             mousePressed[event.mouseButton.button] = true;
+            mouseClicked[event.mouseButton.button] = true;  // Register click event
+            mousePosition = Vector2(static_cast<float>(event.mouseButton.x), 
+                                   static_cast<float>(event.mouseButton.y));
         }
     } else if (event.type == sf::Event::MouseButtonReleased) {
         if (event.mouseButton.button < 3) {

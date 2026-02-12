@@ -1,4 +1,5 @@
 #include "Engine.h"
+#include <iostream>
 
 Engine::Engine(int windowWidth, int windowHeight, const std::string& title) {
     // Create window
@@ -15,6 +16,8 @@ Engine::Engine(int windowWidth, int windowHeight, const std::string& title) {
     physicsSystem = registry->registerSystem<PhysicsSystem>();
     resourceSystem = registry->registerSystem<ResourceSystem>();
     combatSystem = registry->registerSystem<CombatSystem>();
+    selectionSystem = registry->registerSystem<SelectionSystem>();
+    movementSystem = registry->registerSystem<MovementSystem>();
     aiSystem = registry->registerSystem<AISystem>();
     
     // Event system (standalone)
@@ -26,6 +29,7 @@ Engine::Engine(int windowWidth, int windowHeight, const std::string& title) {
     
     // Connect render system to window
     renderSystem->setRenderTarget(window.get());
+    renderSystem->setSelectionSystem(selectionSystem);
     
     // Reset clock
     clock.restart();
@@ -50,6 +54,25 @@ void Engine::pollEvents() {
         
         // Pass events to input system
         inputSystem->handleEvent(event);
+    }
+    
+    // Handle selection (left click)
+    if (inputSystem->wasMouseButtonClicked(0)) {  // 0 = left mouse button
+        Vector2 mousePos = inputSystem->getMousePosition();
+        selectionSystem->handleSelection(mousePos, true);
+    }
+    
+    // Handle movement command (right click)
+    if (inputSystem->wasMouseButtonClicked(1)) {  // 1 = right mouse button
+        auto selectedEntity = selectionSystem->getSelectedEntity();
+        if (selectedEntity) {
+            auto movement = selectedEntity->getComponent<MovementComponent>();
+            if (movement) {
+                Vector2 mousePos = inputSystem->getMousePosition();
+                movement->setTarget(mousePos);
+                std::cout << "Move to: " << mousePos.x << ", " << mousePos.y << std::endl;
+            }
+        }
     }
 }
 

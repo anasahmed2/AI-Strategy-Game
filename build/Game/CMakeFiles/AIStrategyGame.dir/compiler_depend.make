@@ -353,6 +353,8 @@ Game/CMakeFiles/AIStrategyGame.dir/Buildings/Base.cpp.o: ../Game/Buildings/Base.
   ../Engine/Systems/ResourceSystem.h \
   ../Engine/Systems/CombatSystem.h \
   ../Engine/Systems/EventSystem.h \
+  ../Engine/Systems/SelectionSystem.h \
+  ../Engine/Systems/MovementSystem.h \
   ../Engine/AI/AISystem.h \
   ../Engine/AI/StateMachine.h \
   ../Engine/AI/BehaviorTree.h \
@@ -716,6 +718,8 @@ Game/CMakeFiles/AIStrategyGame.dir/Buildings/Building.cpp.o: ../Game/Buildings/B
   ../Engine/Systems/ResourceSystem.h \
   ../Engine/Systems/CombatSystem.h \
   ../Engine/Systems/EventSystem.h \
+  ../Engine/Systems/SelectionSystem.h \
+  ../Engine/Systems/MovementSystem.h \
   ../Engine/AI/AISystem.h \
   ../Engine/AI/StateMachine.h \
   ../Engine/AI/BehaviorTree.h \
@@ -1080,6 +1084,8 @@ Game/CMakeFiles/AIStrategyGame.dir/Buildings/ResourceMine.cpp.o: ../Game/Buildin
   ../Engine/Systems/ResourceSystem.h \
   ../Engine/Systems/CombatSystem.h \
   ../Engine/Systems/EventSystem.h \
+  ../Engine/Systems/SelectionSystem.h \
+  ../Engine/Systems/MovementSystem.h \
   ../Engine/AI/AISystem.h \
   ../Engine/AI/StateMachine.h \
   ../Engine/AI/BehaviorTree.h \
@@ -1444,6 +1450,8 @@ Game/CMakeFiles/AIStrategyGame.dir/Buildings/Turret.cpp.o: ../Game/Buildings/Tur
   ../Engine/Systems/ResourceSystem.h \
   ../Engine/Systems/CombatSystem.h \
   ../Engine/Systems/EventSystem.h \
+  ../Engine/Systems/SelectionSystem.h \
+  ../Engine/Systems/MovementSystem.h \
   ../Engine/AI/AISystem.h \
   ../Engine/AI/StateMachine.h \
   ../Engine/AI/BehaviorTree.h \
@@ -1807,6 +1815,8 @@ Game/CMakeFiles/AIStrategyGame.dir/GameManager.cpp.o: ../Game/GameManager.cpp \
   ../Engine/Systems/ResourceSystem.h \
   ../Engine/Systems/CombatSystem.h \
   ../Engine/Systems/EventSystem.h \
+  ../Engine/Systems/SelectionSystem.h \
+  ../Engine/Systems/MovementSystem.h \
   ../Engine/AI/AISystem.h \
   ../Engine/AI/StateMachine.h \
   ../Engine/AI/BehaviorTree.h \
@@ -2182,6 +2192,8 @@ Game/CMakeFiles/AIStrategyGame.dir/Units/Soldier.cpp.o: ../Game/Units/Soldier.cp
   ../Engine/Systems/ResourceSystem.h \
   ../Engine/Systems/CombatSystem.h \
   ../Engine/Systems/EventSystem.h \
+  ../Engine/Systems/SelectionSystem.h \
+  ../Engine/Systems/MovementSystem.h \
   ../Engine/AI/AISystem.h \
   ../Engine/AI/StateMachine.h \
   ../Engine/AI/BehaviorTree.h \
@@ -2546,6 +2558,8 @@ Game/CMakeFiles/AIStrategyGame.dir/Units/Tank.cpp.o: ../Game/Units/Tank.cpp \
   ../Engine/Systems/ResourceSystem.h \
   ../Engine/Systems/CombatSystem.h \
   ../Engine/Systems/EventSystem.h \
+  ../Engine/Systems/SelectionSystem.h \
+  ../Engine/Systems/MovementSystem.h \
   ../Engine/AI/AISystem.h \
   ../Engine/AI/StateMachine.h \
   ../Engine/AI/BehaviorTree.h \
@@ -2909,6 +2923,8 @@ Game/CMakeFiles/AIStrategyGame.dir/Units/Unit.cpp.o: ../Game/Units/Unit.cpp \
   ../Engine/Systems/ResourceSystem.h \
   ../Engine/Systems/CombatSystem.h \
   ../Engine/Systems/EventSystem.h \
+  ../Engine/Systems/SelectionSystem.h \
+  ../Engine/Systems/MovementSystem.h \
   ../Engine/AI/AISystem.h \
   ../Engine/AI/StateMachine.h \
   ../Engine/AI/BehaviorTree.h \
@@ -3273,6 +3289,8 @@ Game/CMakeFiles/AIStrategyGame.dir/Units/Worker.cpp.o: ../Game/Units/Worker.cpp 
   ../Engine/Systems/ResourceSystem.h \
   ../Engine/Systems/CombatSystem.h \
   ../Engine/Systems/EventSystem.h \
+  ../Engine/Systems/SelectionSystem.h \
+  ../Engine/Systems/MovementSystem.h \
   ../Engine/AI/AISystem.h \
   ../Engine/AI/StateMachine.h \
   ../Engine/AI/BehaviorTree.h \
@@ -3642,6 +3660,8 @@ Game/CMakeFiles/AIStrategyGame.dir/main.cpp.o: ../Game/main.cpp \
   ../Engine/Systems/ResourceSystem.h \
   ../Engine/Systems/CombatSystem.h \
   ../Engine/Systems/EventSystem.h \
+  ../Engine/Systems/SelectionSystem.h \
+  ../Engine/Systems/MovementSystem.h \
   ../Engine/AI/AISystem.h \
   ../Engine/AI/StateMachine.h \
   ../Engine/AI/BehaviorTree.h \
@@ -3688,6 +3708,8 @@ Game/CMakeFiles/AIStrategyGame.dir/main.cpp.o: ../Game/main.cpp \
 ../Engine/AI/BehaviorTree.h:
 
 ../Engine/AI/StateMachine.h:
+
+../Engine/Systems/MovementSystem.h:
 
 ../Engine/ECS/Component.h:
 
@@ -3920,6 +3942,8 @@ Game/CMakeFiles/AIStrategyGame.dir/main.cpp.o: ../Game/main.cpp \
 /usr/include/SFML/System/Clock.hpp:
 
 /usr/include/c++/11/bits/string_view.tcc:
+
+../Engine/Systems/SelectionSystem.h:
 
 /usr/include/c++/11/bits/functional_hash.h:
 

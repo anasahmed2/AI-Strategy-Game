@@ -34,4 +34,8 @@ void Building::setupComponents(Vector2 position) {
     render->height = 64;
     render->layer = 0;
     entity->addComponent(render);
+    
+    // Selection (buildings are selectable but not movable)
+    auto selection = std::make_shared<SelectionComponent>(true);
+    entity->addComponent(selection);
 }

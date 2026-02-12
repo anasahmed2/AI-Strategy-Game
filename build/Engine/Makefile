@@ -418,6 +418,30 @@ Systems/InputSystem.cpp.s:
 	cd /mnt/c/Users/Anas/AI-Strategy-Game/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/Engine.dir/build.make Engine/CMakeFiles/Engine.dir/Systems/InputSystem.cpp.s
 .PHONY : Systems/InputSystem.cpp.s
 
+Systems/MovementSystem.o: Systems/MovementSystem.cpp.o
+.PHONY : Systems/MovementSystem.o
+
+# target to build an object file
+Systems/MovementSystem.cpp.o:
+	cd /mnt/c/Users/Anas/AI-Strategy-Game/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/Engine.dir/build.make Engine/CMakeFiles/Engine.dir/Systems/MovementSystem.cpp.o
+.PHONY : Systems/MovementSystem.cpp.o
+
+Systems/MovementSystem.i: Systems/MovementSystem.cpp.i
+.PHONY : Systems/MovementSystem.i
+
+# target to preprocess a source file
+Systems/MovementSystem.cpp.i:
+	cd /mnt/c/Users/Anas/AI-Strategy-Game/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/Engine.dir/build.make Engine/CMakeFiles/Engine.dir/Systems/MovementSystem.cpp.i
+.PHONY : Systems/MovementSystem.cpp.i
+
+Systems/MovementSystem.s: Systems/MovementSystem.cpp.s
+.PHONY : Systems/MovementSystem.s
+
+# target to generate assembly for a file
+Systems/MovementSystem.cpp.s:
+	cd /mnt/c/Users/Anas/AI-Strategy-Game/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/Engine.dir/build.make Engine/CMakeFiles/Engine.dir/Systems/MovementSystem.cpp.s
+.PHONY : Systems/MovementSystem.cpp.s
+
 Systems/PhysicsSystem.o: Systems/PhysicsSystem.cpp.o
 .PHONY : Systems/PhysicsSystem.o
 
@@ -490,6 +514,30 @@ Systems/ResourceSystem.cpp.s:
 	cd /mnt/c/Users/Anas/AI-Strategy-Game/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/Engine.dir/build.make Engine/CMakeFiles/Engine.dir/Systems/ResourceSystem.cpp.s
 .PHONY : Systems/ResourceSystem.cpp.s
 
+Systems/SelectionSystem.o: Systems/SelectionSystem.cpp.o
+.PHONY : Systems/SelectionSystem.o
+
+# target to build an object file
+Systems/SelectionSystem.cpp.o:
+	cd /mnt/c/Users/Anas/AI-Strategy-Game/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/Engine.dir/build.make Engine/CMakeFiles/Engine.dir/Systems/SelectionSystem.cpp.o
+.PHONY : Systems/SelectionSystem.cpp.o
+
+Systems/SelectionSystem.i: Systems/SelectionSystem.cpp.i
+.PHONY : Systems/SelectionSystem.i
+
+# target to preprocess a source file
+Systems/SelectionSystem.cpp.i:
+	cd /mnt/c/Users/Anas/AI-Strategy-Game/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/Engine.dir/build.make Engine/CMakeFiles/Engine.dir/Systems/SelectionSystem.cpp.i
+.PHONY : Systems/SelectionSystem.cpp.i
+
+Systems/SelectionSystem.s: Systems/SelectionSystem.cpp.s
+.PHONY : Systems/SelectionSystem.s
+
+# target to generate assembly for a file
+Systems/SelectionSystem.cpp.s:
+	cd /mnt/c/Users/Anas/AI-Strategy-Game/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/Engine.dir/build.make Engine/CMakeFiles/Engine.dir/Systems/SelectionSystem.cpp.s
+.PHONY : Systems/SelectionSystem.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -535,6 +583,9 @@ help:
 	@echo "... Systems/InputSystem.o"
 	@echo "... Systems/InputSystem.i"
 	@echo "... Systems/InputSystem.s"
+	@echo "... Systems/MovementSystem.o"
+	@echo "... Systems/MovementSystem.i"
+	@echo "... Systems/MovementSystem.s"
 	@echo "... Systems/PhysicsSystem.o"
 	@echo "... Systems/PhysicsSystem.i"
 	@echo "... Systems/PhysicsSystem.s"
@@ -544,6 +595,9 @@ help:
 	@echo "... Systems/ResourceSystem.o"
 	@echo "... Systems/ResourceSystem.i"
 	@echo "... Systems/ResourceSystem.s"
+	@echo "... Systems/SelectionSystem.o"
+	@echo "... Systems/SelectionSystem.i"
+	@echo "... Systems/SelectionSystem.s"
 .PHONY : help
 
 

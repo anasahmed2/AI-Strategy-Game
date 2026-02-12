@@ -10,6 +10,8 @@ set(ENGINE_SOURCES
     Systems/ResourceSystem.cpp
     Systems/CombatSystem.cpp
     Systems/EventSystem.cpp
+    Systems/SelectionSystem.cpp
+    Systems/MovementSystem.cpp
     AI/StateMachine.cpp
     AI/BehaviorTree.cpp
     AI/AISystem.cpp
@@ -30,6 +32,8 @@ set(ENGINE_HEADERS
     Systems/ResourceSystem.h
     Systems/CombatSystem.h
     Systems/EventSystem.h
+    Systems/SelectionSystem.h
+    Systems/MovementSystem.h
     AI/StateMachine.h
     AI/BehaviorTree.h
     AI/Blackboard.h

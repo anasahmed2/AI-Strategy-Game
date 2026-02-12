@@ -290,6 +290,8 @@ Game/CMakeFiles/AIStrategyGame.dir/Buildings/ResourceMine.cpp.o: \
  /mnt/c/Users/Anas/AI-Strategy-Game/Game/Buildings/../../Engine/Core/../Systems/ResourceSystem.h \
  /mnt/c/Users/Anas/AI-Strategy-Game/Game/Buildings/../../Engine/Core/../Systems/CombatSystem.h \
  /mnt/c/Users/Anas/AI-Strategy-Game/Game/Buildings/../../Engine/Core/../Systems/EventSystem.h \
+ /mnt/c/Users/Anas/AI-Strategy-Game/Game/Buildings/../../Engine/Core/../Systems/SelectionSystem.h \
+ /mnt/c/Users/Anas/AI-Strategy-Game/Game/Buildings/../../Engine/Core/../Systems/MovementSystem.h \
  /mnt/c/Users/Anas/AI-Strategy-Game/Game/Buildings/../../Engine/Core/../AI/AISystem.h \
  /mnt/c/Users/Anas/AI-Strategy-Game/Game/Buildings/../../Engine/Core/../AI/StateMachine.h \
  /mnt/c/Users/Anas/AI-Strategy-Game/Game/Buildings/../../Engine/Core/../AI/BehaviorTree.h \

@@ -9,6 +9,8 @@
 #include "../Systems/ResourceSystem.h"
 #include "../Systems/CombatSystem.h"
 #include "../Systems/EventSystem.h"
+#include "../Systems/SelectionSystem.h"
+#include "../Systems/MovementSystem.h"
 #include "../AI/AISystem.h"
 #include "../Pathfinding/Pathfinder.h"
 
@@ -25,6 +27,8 @@ public:
     std::shared_ptr<ResourceSystem> getResourceSystem() { return resourceSystem; }
     std::shared_ptr<CombatSystem> getCombatSystem() { return combatSystem; }
     std::shared_ptr<EventSystem> getEventSystem() { return eventSystem; }
+    std::shared_ptr<SelectionSystem> getSelectionSystem() { return selectionSystem; }
+    std::shared_ptr<MovementSystem> getMovementSystem() { return movementSystem; }
     std::shared_ptr<AISystem> getAISystem() { return aiSystem; }
     std::shared_ptr<Pathfinder> getPathfinder() { return pathfinder; }
     
@@ -52,6 +56,8 @@ private:
     std::shared_ptr<ResourceSystem> resourceSystem;
     std::shared_ptr<CombatSystem> combatSystem;
     std::shared_ptr<EventSystem> eventSystem;
+    std::shared_ptr<SelectionSystem> selectionSystem;
+    std::shared_ptr<MovementSystem> movementSystem;
     std::shared_ptr<AISystem> aiSystem;
     
     // AI & Pathfinding

@@ -12,6 +12,7 @@ public:
     // Input state
     Vector2 getMousePosition() const;
     bool isMouseButtonPressed(int button) const;
+    bool wasMouseButtonClicked(int button);  // Returns true once per click
     bool isKeyPressed(sf::Keyboard::Key key) const;
     
     // Process SFML events
@@ -20,4 +21,5 @@ public:
 private:
     Vector2 mousePosition;
     bool mousePressed[3] = {false, false, false};  // Left, Right, Middle
+    bool mouseClicked[3] = {false, false, false};  // Click events (consumed after read)
 };

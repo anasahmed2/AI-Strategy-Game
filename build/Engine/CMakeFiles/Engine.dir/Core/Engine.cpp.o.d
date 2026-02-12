@@ -285,6 +285,8 @@ Engine/CMakeFiles/Engine.dir/Core/Engine.cpp.o: \
  /mnt/c/Users/Anas/AI-Strategy-Game/Engine/Core/../Systems/ResourceSystem.h \
  /mnt/c/Users/Anas/AI-Strategy-Game/Engine/Core/../Systems/CombatSystem.h \
  /mnt/c/Users/Anas/AI-Strategy-Game/Engine/Core/../Systems/EventSystem.h \
+ /mnt/c/Users/Anas/AI-Strategy-Game/Engine/Core/../Systems/SelectionSystem.h \
+ /mnt/c/Users/Anas/AI-Strategy-Game/Engine/Core/../Systems/MovementSystem.h \
  /mnt/c/Users/Anas/AI-Strategy-Game/Engine/Core/../AI/AISystem.h \
  /mnt/c/Users/Anas/AI-Strategy-Game/Engine/Core/../AI/StateMachine.h \
  /mnt/c/Users/Anas/AI-Strategy-Game/Engine/Core/../AI/BehaviorTree.h \
@@ -293,4 +295,5 @@ Engine/CMakeFiles/Engine.dir/Core/Engine.cpp.o: \
  /mnt/c/Users/Anas/AI-Strategy-Game/Engine/Core/../Pathfinding/Pathfinder.h \
  /usr/include/c++/11/queue /usr/include/c++/11/deque \
  /usr/include/c++/11/bits/stl_deque.h /usr/include/c++/11/bits/deque.tcc \
- /usr/include/c++/11/bits/stl_queue.h
+ /usr/include/c++/11/bits/stl_queue.h /usr/include/c++/11/iostream \
+ /usr/include/c++/11/istream /usr/include/c++/11/bits/istream.tcc

@@ -20,9 +20,11 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/mnt/c/Users/Anas/AI-Strategy-Game/Engine/Systems/CombatSystem.cpp" "Engine/CMakeFiles/Engine.dir/Systems/CombatSystem.cpp.o" "gcc" "Engine/CMakeFiles/Engine.dir/Systems/CombatSystem.cpp.o.d"
   "/mnt/c/Users/Anas/AI-Strategy-Game/Engine/Systems/EventSystem.cpp" "Engine/CMakeFiles/Engine.dir/Systems/EventSystem.cpp.o" "gcc" "Engine/CMakeFiles/Engine.dir/Systems/EventSystem.cpp.o.d"
   "/mnt/c/Users/Anas/AI-Strategy-Game/Engine/Systems/InputSystem.cpp" "Engine/CMakeFiles/Engine.dir/Systems/InputSystem.cpp.o" "gcc" "Engine/CMakeFiles/Engine.dir/Systems/InputSystem.cpp.o.d"
+  "/mnt/c/Users/Anas/AI-Strategy-Game/Engine/Systems/MovementSystem.cpp" "Engine/CMakeFiles/Engine.dir/Systems/MovementSystem.cpp.o" "gcc" "Engine/CMakeFiles/Engine.dir/Systems/MovementSystem.cpp.o.d"
   "/mnt/c/Users/Anas/AI-Strategy-Game/Engine/Systems/PhysicsSystem.cpp" "Engine/CMakeFiles/Engine.dir/Systems/PhysicsSystem.cpp.o" "gcc" "Engine/CMakeFiles/Engine.dir/Systems/PhysicsSystem.cpp.o.d"
   "/mnt/c/Users/Anas/AI-Strategy-Game/Engine/Systems/RenderSystem.cpp" "Engine/CMakeFiles/Engine.dir/Systems/RenderSystem.cpp.o" "gcc" "Engine/CMakeFiles/Engine.dir/Systems/RenderSystem.cpp.o.d"
   "/mnt/c/Users/Anas/AI-Strategy-Game/Engine/Systems/ResourceSystem.cpp" "Engine/CMakeFiles/Engine.dir/Systems/ResourceSystem.cpp.o" "gcc" "Engine/CMakeFiles/Engine.dir/Systems/ResourceSystem.cpp.o.d"
+  "/mnt/c/Users/Anas/AI-Strategy-Game/Engine/Systems/SelectionSystem.cpp" "Engine/CMakeFiles/Engine.dir/Systems/SelectionSystem.cpp.o" "gcc" "Engine/CMakeFiles/Engine.dir/Systems/SelectionSystem.cpp.o.d"
   )
 
 # Targets to which this target links.

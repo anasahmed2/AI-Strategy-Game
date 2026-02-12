@@ -289,6 +289,8 @@ Game/CMakeFiles/AIStrategyGame.dir/main.cpp.o: \
  /mnt/c/Users/Anas/AI-Strategy-Game/Game/../Engine/Core/../Systems/ResourceSystem.h \
  /mnt/c/Users/Anas/AI-Strategy-Game/Game/../Engine/Core/../Systems/CombatSystem.h \
  /mnt/c/Users/Anas/AI-Strategy-Game/Game/../Engine/Core/../Systems/EventSystem.h \
+ /mnt/c/Users/Anas/AI-Strategy-Game/Game/../Engine/Core/../Systems/SelectionSystem.h \
+ /mnt/c/Users/Anas/AI-Strategy-Game/Game/../Engine/Core/../Systems/MovementSystem.h \
  /mnt/c/Users/Anas/AI-Strategy-Game/Game/../Engine/Core/../AI/AISystem.h \
  /mnt/c/Users/Anas/AI-Strategy-Game/Game/../Engine/Core/../AI/StateMachine.h \
  /mnt/c/Users/Anas/AI-Strategy-Game/Game/../Engine/Core/../AI/BehaviorTree.h \

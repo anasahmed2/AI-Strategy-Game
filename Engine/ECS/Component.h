@@ -77,3 +77,31 @@ struct ResourceContainerComponent : public Component {
     ResourceContainerComponent() = default;
 };
 
+// ===== SELECTION COMPONENT =====
+struct SelectionComponent : public Component {
+    bool isSelected = false;
+    bool isSelectable = true;
+    
+    SelectionComponent() = default;
+    SelectionComponent(bool selectable) : isSelectable(selectable) {}
+};
+
+// ===== MOVEMENT COMPONENT =====
+struct MovementComponent : public Component {
+    Vector2 targetPosition;
+    bool hasTarget = false;
+    float moveSpeed = 100.0f;  // pixels per second
+    float arrivalRadius = 5.0f;  // Distance to consider "arrived"
+    
+    MovementComponent() = default;
+    MovementComponent(float speed) : moveSpeed(speed) {}
+    
+    void setTarget(Vector2 target) {
+        targetPosition = target;
+        hasTarget = true;
+    }
+    
+    void clearTarget() {
+        hasTarget = false;
+    }
+};

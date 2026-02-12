@@ -59,8 +59,10 @@
 - [ ] Add basic movement (units follow waypoints)
 
 ### High Priority (Next 1 week)
-- [ ] Unit selection (click to select)
-- [ ] Movement commands (right-click to move)
+- [x] Unit selection (click to select) - DONE!
+- [x] Movement commands (right-click to move) - DONE!
+- [x] Selection visual feedback (white outline) - DONE!
+- [x] UI overlay showing selected unit - DONE!
 - [ ] Sprite rendering (replace circles)
 - [ ] ImGui developer UI
 

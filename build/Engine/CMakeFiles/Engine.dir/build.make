@@ -223,10 +223,38 @@ Engine/CMakeFiles/Engine.dir/Systems/EventSystem.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Engine.dir/Systems/EventSystem.cpp.s"
 	cd /mnt/c/Users/Anas/AI-Strategy-Game/build/Engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Anas/AI-Strategy-Game/Engine/Systems/EventSystem.cpp -o CMakeFiles/Engine.dir/Systems/EventSystem.cpp.s
 
+Engine/CMakeFiles/Engine.dir/Systems/SelectionSystem.cpp.o: Engine/CMakeFiles/Engine.dir/flags.make
+Engine/CMakeFiles/Engine.dir/Systems/SelectionSystem.cpp.o: ../Engine/Systems/SelectionSystem.cpp
+Engine/CMakeFiles/Engine.dir/Systems/SelectionSystem.cpp.o: Engine/CMakeFiles/Engine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Anas/AI-Strategy-Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object Engine/CMakeFiles/Engine.dir/Systems/SelectionSystem.cpp.o"
+	cd /mnt/c/Users/Anas/AI-Strategy-Game/build/Engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Engine/CMakeFiles/Engine.dir/Systems/SelectionSystem.cpp.o -MF CMakeFiles/Engine.dir/Systems/SelectionSystem.cpp.o.d -o CMakeFiles/Engine.dir/Systems/SelectionSystem.cpp.o -c /mnt/c/Users/Anas/AI-Strategy-Game/Engine/Systems/SelectionSystem.cpp
+
+Engine/CMakeFiles/Engine.dir/Systems/SelectionSystem.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Engine.dir/Systems/SelectionSystem.cpp.i"
+	cd /mnt/c/Users/Anas/AI-Strategy-Game/build/Engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Anas/AI-Strategy-Game/Engine/Systems/SelectionSystem.cpp > CMakeFiles/Engine.dir/Systems/SelectionSystem.cpp.i
+
+Engine/CMakeFiles/Engine.dir/Systems/SelectionSystem.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Engine.dir/Systems/SelectionSystem.cpp.s"
+	cd /mnt/c/Users/Anas/AI-Strategy-Game/build/Engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Anas/AI-Strategy-Game/Engine/Systems/SelectionSystem.cpp -o CMakeFiles/Engine.dir/Systems/SelectionSystem.cpp.s
+
+Engine/CMakeFiles/Engine.dir/Systems/MovementSystem.cpp.o: Engine/CMakeFiles/Engine.dir/flags.make
+Engine/CMakeFiles/Engine.dir/Systems/MovementSystem.cpp.o: ../Engine/Systems/MovementSystem.cpp
+Engine/CMakeFiles/Engine.dir/Systems/MovementSystem.cpp.o: Engine/CMakeFiles/Engine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Anas/AI-Strategy-Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object Engine/CMakeFiles/Engine.dir/Systems/MovementSystem.cpp.o"
+	cd /mnt/c/Users/Anas/AI-Strategy-Game/build/Engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Engine/CMakeFiles/Engine.dir/Systems/MovementSystem.cpp.o -MF CMakeFiles/Engine.dir/Systems/MovementSystem.cpp.o.d -o CMakeFiles/Engine.dir/Systems/MovementSystem.cpp.o -c /mnt/c/Users/Anas/AI-Strategy-Game/Engine/Systems/MovementSystem.cpp
+
+Engine/CMakeFiles/Engine.dir/Systems/MovementSystem.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Engine.dir/Systems/MovementSystem.cpp.i"
+	cd /mnt/c/Users/Anas/AI-Strategy-Game/build/Engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Anas/AI-Strategy-Game/Engine/Systems/MovementSystem.cpp > CMakeFiles/Engine.dir/Systems/MovementSystem.cpp.i
+
+Engine/CMakeFiles/Engine.dir/Systems/MovementSystem.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Engine.dir/Systems/MovementSystem.cpp.s"
+	cd /mnt/c/Users/Anas/AI-Strategy-Game/build/Engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Anas/AI-Strategy-Game/Engine/Systems/MovementSystem.cpp -o CMakeFiles/Engine.dir/Systems/MovementSystem.cpp.s
+
 Engine/CMakeFiles/Engine.dir/AI/StateMachine.cpp.o: Engine/CMakeFiles/Engine.dir/flags.make
 Engine/CMakeFiles/Engine.dir/AI/StateMachine.cpp.o: ../Engine/AI/StateMachine.cpp
 Engine/CMakeFiles/Engine.dir/AI/StateMachine.cpp.o: Engine/CMakeFiles/Engine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Anas/AI-Strategy-Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object Engine/CMakeFiles/Engine.dir/AI/StateMachine.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Anas/AI-Strategy-Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object Engine/CMakeFiles/Engine.dir/AI/StateMachine.cpp.o"
 	cd /mnt/c/Users/Anas/AI-Strategy-Game/build/Engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Engine/CMakeFiles/Engine.dir/AI/StateMachine.cpp.o -MF CMakeFiles/Engine.dir/AI/StateMachine.cpp.o.d -o CMakeFiles/Engine.dir/AI/StateMachine.cpp.o -c /mnt/c/Users/Anas/AI-Strategy-Game/Engine/AI/StateMachine.cpp
 
 Engine/CMakeFiles/Engine.dir/AI/StateMachine.cpp.i: cmake_force
@@ -240,7 +268,7 @@ Engine/CMakeFiles/Engine.dir/AI/StateMachine.cpp.s: cmake_force
 Engine/CMakeFiles/Engine.dir/AI/BehaviorTree.cpp.o: Engine/CMakeFiles/Engine.dir/flags.make
 Engine/CMakeFiles/Engine.dir/AI/BehaviorTree.cpp.o: ../Engine/AI/BehaviorTree.cpp
 Engine/CMakeFiles/Engine.dir/AI/BehaviorTree.cpp.o: Engine/CMakeFiles/Engine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Anas/AI-Strategy-Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object Engine/CMakeFiles/Engine.dir/AI/BehaviorTree.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Anas/AI-Strategy-Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object Engine/CMakeFiles/Engine.dir/AI/BehaviorTree.cpp.o"
 	cd /mnt/c/Users/Anas/AI-Strategy-Game/build/Engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Engine/CMakeFiles/Engine.dir/AI/BehaviorTree.cpp.o -MF CMakeFiles/Engine.dir/AI/BehaviorTree.cpp.o.d -o CMakeFiles/Engine.dir/AI/BehaviorTree.cpp.o -c /mnt/c/Users/Anas/AI-Strategy-Game/Engine/AI/BehaviorTree.cpp
 
 Engine/CMakeFiles/Engine.dir/AI/BehaviorTree.cpp.i: cmake_force
@@ -254,7 +282,7 @@ Engine/CMakeFiles/Engine.dir/AI/BehaviorTree.cpp.s: cmake_force
 Engine/CMakeFiles/Engine.dir/AI/AISystem.cpp.o: Engine/CMakeFiles/Engine.dir/flags.make
 Engine/CMakeFiles/Engine.dir/AI/AISystem.cpp.o: ../Engine/AI/AISystem.cpp
 Engine/CMakeFiles/Engine.dir/AI/AISystem.cpp.o: Engine/CMakeFiles/Engine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Anas/AI-Strategy-Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object Engine/CMakeFiles/Engine.dir/AI/AISystem.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Anas/AI-Strategy-Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object Engine/CMakeFiles/Engine.dir/AI/AISystem.cpp.o"
 	cd /mnt/c/Users/Anas/AI-Strategy-Game/build/Engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Engine/CMakeFiles/Engine.dir/AI/AISystem.cpp.o -MF CMakeFiles/Engine.dir/AI/AISystem.cpp.o.d -o CMakeFiles/Engine.dir/AI/AISystem.cpp.o -c /mnt/c/Users/Anas/AI-Strategy-Game/Engine/AI/AISystem.cpp
 
 Engine/CMakeFiles/Engine.dir/AI/AISystem.cpp.i: cmake_force
@@ -268,7 +296,7 @@ Engine/CMakeFiles/Engine.dir/AI/AISystem.cpp.s: cmake_force
 Engine/CMakeFiles/Engine.dir/Pathfinding/Pathfinder.cpp.o: Engine/CMakeFiles/Engine.dir/flags.make
 Engine/CMakeFiles/Engine.dir/Pathfinding/Pathfinder.cpp.o: ../Engine/Pathfinding/Pathfinder.cpp
 Engine/CMakeFiles/Engine.dir/Pathfinding/Pathfinder.cpp.o: Engine/CMakeFiles/Engine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Anas/AI-Strategy-Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object Engine/CMakeFiles/Engine.dir/Pathfinding/Pathfinder.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Anas/AI-Strategy-Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object Engine/CMakeFiles/Engine.dir/Pathfinding/Pathfinder.cpp.o"
 	cd /mnt/c/Users/Anas/AI-Strategy-Game/build/Engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Engine/CMakeFiles/Engine.dir/Pathfinding/Pathfinder.cpp.o -MF CMakeFiles/Engine.dir/Pathfinding/Pathfinder.cpp.o.d -o CMakeFiles/Engine.dir/Pathfinding/Pathfinder.cpp.o -c /mnt/c/Users/Anas/AI-Strategy-Game/Engine/Pathfinding/Pathfinder.cpp
 
 Engine/CMakeFiles/Engine.dir/Pathfinding/Pathfinder.cpp.i: cmake_force
@@ -292,6 +320,8 @@ Engine_OBJECTS = \
 "CMakeFiles/Engine.dir/Systems/ResourceSystem.cpp.o" \
 "CMakeFiles/Engine.dir/Systems/CombatSystem.cpp.o" \
 "CMakeFiles/Engine.dir/Systems/EventSystem.cpp.o" \
+"CMakeFiles/Engine.dir/Systems/SelectionSystem.cpp.o" \
+"CMakeFiles/Engine.dir/Systems/MovementSystem.cpp.o" \
 "CMakeFiles/Engine.dir/AI/StateMachine.cpp.o" \
 "CMakeFiles/Engine.dir/AI/BehaviorTree.cpp.o" \
 "CMakeFiles/Engine.dir/AI/AISystem.cpp.o" \
@@ -311,13 +341,15 @@ Engine/libEngine.a: Engine/CMakeFiles/Engine.dir/Systems/PhysicsSystem.cpp.o
 Engine/libEngine.a: Engine/CMakeFiles/Engine.dir/Systems/ResourceSystem.cpp.o
 Engine/libEngine.a: Engine/CMakeFiles/Engine.dir/Systems/CombatSystem.cpp.o
 Engine/libEngine.a: Engine/CMakeFiles/Engine.dir/Systems/EventSystem.cpp.o
+Engine/libEngine.a: Engine/CMakeFiles/Engine.dir/Systems/SelectionSystem.cpp.o
+Engine/libEngine.a: Engine/CMakeFiles/Engine.dir/Systems/MovementSystem.cpp.o
 Engine/libEngine.a: Engine/CMakeFiles/Engine.dir/AI/StateMachine.cpp.o
 Engine/libEngine.a: Engine/CMakeFiles/Engine.dir/AI/BehaviorTree.cpp.o
 Engine/libEngine.a: Engine/CMakeFiles/Engine.dir/AI/AISystem.cpp.o
 Engine/libEngine.a: Engine/CMakeFiles/Engine.dir/Pathfinding/Pathfinder.cpp.o
 Engine/libEngine.a: Engine/CMakeFiles/Engine.dir/build.make
 Engine/libEngine.a: Engine/CMakeFiles/Engine.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/Anas/AI-Strategy-Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX static library libEngine.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/Anas/AI-Strategy-Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX static library libEngine.a"
 	cd /mnt/c/Users/Anas/AI-Strategy-Game/build/Engine && $(CMAKE_COMMAND) -P CMakeFiles/Engine.dir/cmake_clean_target.cmake
 	cd /mnt/c/Users/Anas/AI-Strategy-Game/build/Engine && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Engine.dir/link.txt --verbose=$(VERBOSE)
 

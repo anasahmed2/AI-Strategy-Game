@@ -46,6 +46,14 @@ void Unit::setupComponents(Vector2 position) {
     combat->attackDamage = getAttackDamage();
     combat->attackRange = getAttackRange();
     entity->addComponent(combat);
+    
+    // Selection (units are selectable)
+    auto selection = std::make_shared<SelectionComponent>(true);
+    entity->addComponent(selection);
+    
+    // Movement
+    auto movement = std::make_shared<MovementComponent>(100.0f);  // Default speed
+    entity->addComponent(movement);
 }
 
 void Unit::setupAI() {
