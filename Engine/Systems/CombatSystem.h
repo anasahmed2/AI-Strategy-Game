@@ -22,9 +22,10 @@ public:
     void dealDamage(std::shared_ptr<Entity> target, float damage);
     
     // Find nearby enemies
-    std::vector<std::shared_ptr<Entity>> findTargetsInRange(std::shared_ptr<Entity> attacker);
+    std::vector<std::shared_ptr<Entity>> findTargetsInRange(std::shared_ptr<Entity> attacker, float overrideRange = -1.0f);
 
 private:
     void updateAttackCooldowns(float deltaTime);
     void performAttacks();
+    std::shared_ptr<Entity> resolveCommandTarget(const std::shared_ptr<Entity>& attacker);
 };

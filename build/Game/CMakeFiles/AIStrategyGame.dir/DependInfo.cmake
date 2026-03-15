@@ -13,6 +13,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/mnt/c/Users/Anas/AI-Strategy-Game/Game/Buildings/ResourceMine.cpp" "Game/CMakeFiles/AIStrategyGame.dir/Buildings/ResourceMine.cpp.o" "gcc" "Game/CMakeFiles/AIStrategyGame.dir/Buildings/ResourceMine.cpp.o.d"
   "/mnt/c/Users/Anas/AI-Strategy-Game/Game/Buildings/Turret.cpp" "Game/CMakeFiles/AIStrategyGame.dir/Buildings/Turret.cpp.o" "gcc" "Game/CMakeFiles/AIStrategyGame.dir/Buildings/Turret.cpp.o.d"
   "/mnt/c/Users/Anas/AI-Strategy-Game/Game/GameManager.cpp" "Game/CMakeFiles/AIStrategyGame.dir/GameManager.cpp.o" "gcc" "Game/CMakeFiles/AIStrategyGame.dir/GameManager.cpp.o.d"
+  "/mnt/c/Users/Anas/AI-Strategy-Game/Game/Units/Scout.cpp" "Game/CMakeFiles/AIStrategyGame.dir/Units/Scout.cpp.o" "gcc" "Game/CMakeFiles/AIStrategyGame.dir/Units/Scout.cpp.o.d"
   "/mnt/c/Users/Anas/AI-Strategy-Game/Game/Units/Soldier.cpp" "Game/CMakeFiles/AIStrategyGame.dir/Units/Soldier.cpp.o" "gcc" "Game/CMakeFiles/AIStrategyGame.dir/Units/Soldier.cpp.o.d"
   "/mnt/c/Users/Anas/AI-Strategy-Game/Game/Units/Tank.cpp" "Game/CMakeFiles/AIStrategyGame.dir/Units/Tank.cpp.o" "gcc" "Game/CMakeFiles/AIStrategyGame.dir/Units/Tank.cpp.o.d"
   "/mnt/c/Users/Anas/AI-Strategy-Game/Game/Units/Unit.cpp" "Game/CMakeFiles/AIStrategyGame.dir/Units/Unit.cpp.o" "gcc" "Game/CMakeFiles/AIStrategyGame.dir/Units/Unit.cpp.o.d"

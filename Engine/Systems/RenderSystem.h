@@ -26,6 +26,8 @@ private:
     std::unordered_map<std::string, sf::Shape*> shapes;
     sf::Font font;
     bool fontLoaded = false;
+    float lastDeltaTime = 0.016f;
     
     void renderUI();
+    void loadDebugFont();
 };

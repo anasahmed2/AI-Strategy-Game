@@ -44,6 +44,10 @@ public:
     float getDeltaTime() const;
 
 private:
+    void rebuildPathGrid();
+    std::shared_ptr<Entity> getEntityAtPoint(Vector2 point) const;
+    void assignPathToEntity(const std::shared_ptr<Entity>& entity, Vector2 target);
+
     std::unique_ptr<sf::RenderWindow> window;
     
     // ECS
@@ -66,4 +70,8 @@ private:
     // Timing
     sf::Clock clock;
     float deltaTime = 0.0f;
+
+    // Input interaction state
+    bool leftDragInProgress = false;
+    Vector2 leftDragStart;
 };

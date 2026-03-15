@@ -303,6 +303,7 @@ Game/CMakeFiles/AIStrategyGame.dir/GameManager.cpp.o: \
  /mnt/c/Users/Anas/AI-Strategy-Game/Game/Units/Unit.h \
  /mnt/c/Users/Anas/AI-Strategy-Game/Game/Units/Soldier.h \
  /mnt/c/Users/Anas/AI-Strategy-Game/Game/Units/Tank.h \
+ /mnt/c/Users/Anas/AI-Strategy-Game/Game/Units/Scout.h \
  /mnt/c/Users/Anas/AI-Strategy-Game/Game/Buildings/Base.h \
  /mnt/c/Users/Anas/AI-Strategy-Game/Game/Buildings/Building.h \
  /mnt/c/Users/Anas/AI-Strategy-Game/Game/Buildings/ResourceMine.h \

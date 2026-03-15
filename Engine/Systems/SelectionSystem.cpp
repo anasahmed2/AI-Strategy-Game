@@ -1,5 +1,7 @@
 #include "SelectionSystem.h"
 #include <iostream>
+#include <algorithm>
+#include <cmath>
 
 void SelectionSystem::update(float deltaTime) {
     // SelectionSystem is mostly event-driven, no per-frame updates needed
@@ -10,13 +12,12 @@ void SelectionSystem::setRequiredComponents() {
     require<SelectionComponent>();
 }
 
-void SelectionSystem::handleSelection(Vector2 mousePos, bool leftClick) {
+void SelectionSystem::handleSelection(Vector2 mousePos, bool leftClick, bool additive) {
     if (!leftClick) return;
-    
-    std::cout << "Click at: " << mousePos.x << ", " << mousePos.y << std::endl;
-    
-    // Clear previous selection
-    clearSelection();
+
+    if (!additive) {
+        clearSelection();
+    }
     
     // Find entity under mouse
     for (auto& entity : entities) {
@@ -37,16 +38,69 @@ void SelectionSystem::handleSelection(Vector2 mousePos, bool leftClick) {
         if (distance <= clickRadius) {
             selection->isSelected = true;
             currentSelection = entity;
-            std::cout << "Selected entity at: " << transform->position.x << ", " << transform->position.y << std::endl;
+            bool alreadySelected = std::any_of(selectedEntities.begin(), selectedEntities.end(),
+                [&entity](const std::shared_ptr<Entity>& existing) {
+                    return existing && existing->getId() == entity->getId();
+                });
+            if (!alreadySelected) {
+                selectedEntities.push_back(entity);
+            }
             return;  // Select first matching entity
         }
     }
-    
-    std::cout << "No entity selected" << std::endl;
+}
+
+void SelectionSystem::handleBoxSelection(Vector2 start, Vector2 end, bool additive) {
+    float minX = std::min(start.x, end.x);
+    float maxX = std::max(start.x, end.x);
+    float minY = std::min(start.y, end.y);
+    float maxY = std::max(start.y, end.y);
+
+    if (!additive) {
+        clearSelection();
+    }
+
+    for (auto& entity : entities) {
+        auto transform = entity->getComponent<TransformComponent>();
+        auto selection = entity->getComponent<SelectionComponent>();
+        auto role = entity->getComponent<RoleComponent>();
+        auto team = entity->getComponent<TeamComponent>();
+        if (!transform || !selection || !selection->isSelectable || !team || !role) {
+            continue;
+        }
+
+        if (team->faction != Faction::Player) {
+            continue;
+        }
+
+        if (role->role == EntityRole::Base || role->role == EntityRole::Turret || role->role == EntityRole::ResourceMine) {
+            continue;
+        }
+
+        const Vector2& pos = transform->position;
+        if (pos.x >= minX && pos.x <= maxX && pos.y >= minY && pos.y <= maxY) {
+            selection->isSelected = true;
+            bool alreadySelected = std::any_of(selectedEntities.begin(), selectedEntities.end(),
+                [&entity](const std::shared_ptr<Entity>& existing) {
+                    return existing && existing->getId() == entity->getId();
+                });
+            if (!alreadySelected) {
+                selectedEntities.push_back(entity);
+            }
+        }
+    }
+
+    if (!selectedEntities.empty()) {
+        currentSelection = selectedEntities.front();
+    }
 }
 
 std::shared_ptr<Entity> SelectionSystem::getSelectedEntity() const {
     return currentSelection;
+}
+
+const std::vector<std::shared_ptr<Entity>>& SelectionSystem::getSelectedEntities() const {
+    return selectedEntities;
 }
 
 void SelectionSystem::clearSelection() {
@@ -57,4 +111,5 @@ void SelectionSystem::clearSelection() {
         }
     }
     currentSelection = nullptr;
+    selectedEntities.clear();
 }

@@ -1,7 +1,10 @@
 #include "InputSystem.h"
 
 void InputSystem::update(float deltaTime) {
-    // Click events are consumed each frame
+    // Click events are one-frame pulses.
+    mouseClicked[0] = false;
+    mouseClicked[1] = false;
+    mouseClicked[2] = false;
 }
 
 void InputSystem::setRequiredComponents() {

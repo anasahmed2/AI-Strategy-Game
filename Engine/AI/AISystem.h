@@ -10,6 +10,7 @@ struct AIComponent : public Component {
     std::shared_ptr<StateMachine> stateMachine;
     std::shared_ptr<BehaviorTree> behaviorTree;
     Blackboard blackboard;
+    bool stateMachineInitialized = false;
     
     AIComponent() : stateMachine(std::make_shared<StateMachine>()),
                     behaviorTree(std::make_shared<BehaviorTree>()) {}

@@ -250,6 +250,30 @@ GameManager.cpp.s:
 	cd /mnt/c/Users/Anas/AI-Strategy-Game/build && $(MAKE) $(MAKESILENT) -f Game/CMakeFiles/AIStrategyGame.dir/build.make Game/CMakeFiles/AIStrategyGame.dir/GameManager.cpp.s
 .PHONY : GameManager.cpp.s
 
+Units/Scout.o: Units/Scout.cpp.o
+.PHONY : Units/Scout.o
+
+# target to build an object file
+Units/Scout.cpp.o:
+	cd /mnt/c/Users/Anas/AI-Strategy-Game/build && $(MAKE) $(MAKESILENT) -f Game/CMakeFiles/AIStrategyGame.dir/build.make Game/CMakeFiles/AIStrategyGame.dir/Units/Scout.cpp.o
+.PHONY : Units/Scout.cpp.o
+
+Units/Scout.i: Units/Scout.cpp.i
+.PHONY : Units/Scout.i
+
+# target to preprocess a source file
+Units/Scout.cpp.i:
+	cd /mnt/c/Users/Anas/AI-Strategy-Game/build && $(MAKE) $(MAKESILENT) -f Game/CMakeFiles/AIStrategyGame.dir/build.make Game/CMakeFiles/AIStrategyGame.dir/Units/Scout.cpp.i
+.PHONY : Units/Scout.cpp.i
+
+Units/Scout.s: Units/Scout.cpp.s
+.PHONY : Units/Scout.s
+
+# target to generate assembly for a file
+Units/Scout.cpp.s:
+	cd /mnt/c/Users/Anas/AI-Strategy-Game/build && $(MAKE) $(MAKESILENT) -f Game/CMakeFiles/AIStrategyGame.dir/build.make Game/CMakeFiles/AIStrategyGame.dir/Units/Scout.cpp.s
+.PHONY : Units/Scout.cpp.s
+
 Units/Soldier.o: Units/Soldier.cpp.o
 .PHONY : Units/Soldier.o
 
@@ -394,6 +418,9 @@ help:
 	@echo "... GameManager.o"
 	@echo "... GameManager.i"
 	@echo "... GameManager.s"
+	@echo "... Units/Scout.o"
+	@echo "... Units/Scout.i"
+	@echo "... Units/Scout.s"
 	@echo "... Units/Soldier.o"
 	@echo "... Units/Soldier.i"
 	@echo "... Units/Soldier.s"

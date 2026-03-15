@@ -11,6 +11,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/AIStrategyGame.dir/Buildings/Turret.cpp.o.d"
   "CMakeFiles/AIStrategyGame.dir/GameManager.cpp.o"
   "CMakeFiles/AIStrategyGame.dir/GameManager.cpp.o.d"
+  "CMakeFiles/AIStrategyGame.dir/Units/Scout.cpp.o"
+  "CMakeFiles/AIStrategyGame.dir/Units/Scout.cpp.o.d"
   "CMakeFiles/AIStrategyGame.dir/Units/Soldier.cpp.o"
   "CMakeFiles/AIStrategyGame.dir/Units/Soldier.cpp.o.d"
   "CMakeFiles/AIStrategyGame.dir/Units/Tank.cpp.o"

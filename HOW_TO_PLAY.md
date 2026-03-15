@@ -19,12 +19,22 @@ wsl bash -c "export DISPLAY=:0 && cd /mnt/c/Users/Anas/AI-Strategy-Game/build/Ga
 ## 🎯 Controls
 
 ### Mouse Controls
-- **Left Click** - Select a unit or building
-- **Right Click** - Move selected unit to location (units only)
+- **Left Click** - Select unit/building
+- **Left Drag** - Box-select multiple player units
+- **Right Click** - Context command for selected units:
+  - Ground = Move
+  - Enemy = Attack
+  - Resource Mine = Gather (workers)
+- **Shift + Right Click** - Defend/move-hold command
 - **Close Window** - Exit game
 
 ### Keyboard
-- *Coming soon!*
+- **B** then Left Click - Place new Base (costs Gold)
+- **T** then Left Click - Place new Turret (costs Gold)
+- **Num1** - Produce Worker from selected Base
+- **Num2** - Produce Soldier from selected Base
+- **Num3** - Produce Tank from selected Base
+- **Num4** - Produce Scout from selected Base
 
 ---
 
@@ -34,6 +44,7 @@ wsl bash -c "export DISPLAY=:0 && cd /mnt/c/Users/Anas/AI-Strategy-Game/build/Ga
 - **Yellow** - Workers (resource gatherers, fast, weak)
 - **Green** - Soldiers (balanced combat units)
 - **Gray** - Tanks (heavy, slow, strong)
+- **Cyan** - Scouts (fast reconnaissance)
 
 ### Buildings (Larger circles):
 - **Blue** - Bases (spawn points, resource storage)
@@ -122,20 +133,21 @@ When you select a unit or building:
 ## 🎯 Current Features
 
 ✅ **Working:**
-- Unit selection with visual feedback
-- Movement commands for units
-- Health tracking and display
-- Real-time movement system
-- UI panel with unit info
-- Multiple unit types
+- Multi-unit selection (click and drag-box)
+- Context right-click commands (move/attack/gather/defend)
+- Unit and building health tracking
+- A*-driven waypoint movement
+- Resource gathering loop (workers -> mine -> base)
+- Enemy FSM + BehaviorTree decision-making
+- Unit production from player base
+- Building placement flow
+- Debug panel (FPS/state/target/path nodes)
 
 🚧 **Coming Soon:**
-- Keyboard shortcuts
-- Multiple unit selection (drag-box)
-- Attack commands
-- Building construction
-- Resource collection
-- AI opponents
+- Sprite assets replacing primitive shapes
+- ImGui tools and richer minimap
+- Better combat effects and audio
+- Advanced formation tactics
 
 ---
 

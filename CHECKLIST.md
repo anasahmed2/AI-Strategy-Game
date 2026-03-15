@@ -53,23 +53,23 @@
 ## ⚠️ What Needs Implementation
 
 ### Critical (Do First - 2 hours total)
-- [ ] Complete ResourceSystem.cpp implementation
-- [ ] Implement Worker AI behavior tree
-- [ ] Implement Soldier AI behavior tree
-- [ ] Add basic movement (units follow waypoints)
+- [x] Complete ResourceSystem.cpp implementation - DONE
+- [x] Implement Worker AI behavior tree - DONE
+- [x] Implement Soldier AI behavior tree - DONE
+- [x] Add basic movement (units follow waypoints) - DONE
 
 ### High Priority (Next 1 week)
 - [x] Unit selection (click to select) - DONE!
-- [x] Movement commands (right-click to move) - DONE!
+- [x] Movement commands (right-click to move/attack/gather/defend) - DONE!
 - [x] Selection visual feedback (white outline) - DONE!
 - [x] UI overlay showing selected unit - DONE!
 - [ ] Sprite rendering (replace circles)
 - [ ] ImGui developer UI
 
 ### Medium Priority (1-2 weeks)
-- [ ] Building placement
-- [ ] Unit spawning
-- [ ] Resource UI
+- [x] Building placement (hotkey + click) - DONE
+- [x] Unit spawning (base production hotkeys) - DONE
+- [x] Resource UI (developer overlay metrics) - DONE
 - [ ] Sound effects
 
 ### Lower Priority

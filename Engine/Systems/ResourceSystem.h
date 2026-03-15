@@ -13,6 +13,10 @@ public:
     void addResource(const std::string& resourceType, float amount);
     void removeResource(const std::string& resourceType, float amount);
     float getResource(const std::string& resourceType) const;
+
+    void addResource(Faction faction, const std::string& resourceType, float amount);
+    bool spendResource(Faction faction, const std::string& resourceType, float amount);
+    float getResource(Faction faction, const std::string& resourceType) const;
     
     // Entity resource management
     void addResourceToEntity(std::shared_ptr<Entity> entity, 
@@ -22,4 +26,5 @@ public:
 
 private:
     std::unordered_map<std::string, float> globalResources;  // Shared pool
+    std::unordered_map<int, std::unordered_map<std::string, float>> teamResources;
 };

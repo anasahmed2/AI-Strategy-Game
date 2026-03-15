@@ -153,10 +153,24 @@ Game/CMakeFiles/AIStrategyGame.dir/Units/Tank.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AIStrategyGame.dir/Units/Tank.cpp.s"
 	cd /mnt/c/Users/Anas/AI-Strategy-Game/build/Game && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Anas/AI-Strategy-Game/Game/Units/Tank.cpp -o CMakeFiles/AIStrategyGame.dir/Units/Tank.cpp.s
 
+Game/CMakeFiles/AIStrategyGame.dir/Units/Scout.cpp.o: Game/CMakeFiles/AIStrategyGame.dir/flags.make
+Game/CMakeFiles/AIStrategyGame.dir/Units/Scout.cpp.o: ../Game/Units/Scout.cpp
+Game/CMakeFiles/AIStrategyGame.dir/Units/Scout.cpp.o: Game/CMakeFiles/AIStrategyGame.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Anas/AI-Strategy-Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object Game/CMakeFiles/AIStrategyGame.dir/Units/Scout.cpp.o"
+	cd /mnt/c/Users/Anas/AI-Strategy-Game/build/Game && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Game/CMakeFiles/AIStrategyGame.dir/Units/Scout.cpp.o -MF CMakeFiles/AIStrategyGame.dir/Units/Scout.cpp.o.d -o CMakeFiles/AIStrategyGame.dir/Units/Scout.cpp.o -c /mnt/c/Users/Anas/AI-Strategy-Game/Game/Units/Scout.cpp
+
+Game/CMakeFiles/AIStrategyGame.dir/Units/Scout.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AIStrategyGame.dir/Units/Scout.cpp.i"
+	cd /mnt/c/Users/Anas/AI-Strategy-Game/build/Game && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Anas/AI-Strategy-Game/Game/Units/Scout.cpp > CMakeFiles/AIStrategyGame.dir/Units/Scout.cpp.i
+
+Game/CMakeFiles/AIStrategyGame.dir/Units/Scout.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AIStrategyGame.dir/Units/Scout.cpp.s"
+	cd /mnt/c/Users/Anas/AI-Strategy-Game/build/Game && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Anas/AI-Strategy-Game/Game/Units/Scout.cpp -o CMakeFiles/AIStrategyGame.dir/Units/Scout.cpp.s
+
 Game/CMakeFiles/AIStrategyGame.dir/Buildings/Building.cpp.o: Game/CMakeFiles/AIStrategyGame.dir/flags.make
 Game/CMakeFiles/AIStrategyGame.dir/Buildings/Building.cpp.o: ../Game/Buildings/Building.cpp
 Game/CMakeFiles/AIStrategyGame.dir/Buildings/Building.cpp.o: Game/CMakeFiles/AIStrategyGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Anas/AI-Strategy-Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object Game/CMakeFiles/AIStrategyGame.dir/Buildings/Building.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Anas/AI-Strategy-Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object Game/CMakeFiles/AIStrategyGame.dir/Buildings/Building.cpp.o"
 	cd /mnt/c/Users/Anas/AI-Strategy-Game/build/Game && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Game/CMakeFiles/AIStrategyGame.dir/Buildings/Building.cpp.o -MF CMakeFiles/AIStrategyGame.dir/Buildings/Building.cpp.o.d -o CMakeFiles/AIStrategyGame.dir/Buildings/Building.cpp.o -c /mnt/c/Users/Anas/AI-Strategy-Game/Game/Buildings/Building.cpp
 
 Game/CMakeFiles/AIStrategyGame.dir/Buildings/Building.cpp.i: cmake_force
@@ -170,7 +184,7 @@ Game/CMakeFiles/AIStrategyGame.dir/Buildings/Building.cpp.s: cmake_force
 Game/CMakeFiles/AIStrategyGame.dir/Buildings/Base.cpp.o: Game/CMakeFiles/AIStrategyGame.dir/flags.make
 Game/CMakeFiles/AIStrategyGame.dir/Buildings/Base.cpp.o: ../Game/Buildings/Base.cpp
 Game/CMakeFiles/AIStrategyGame.dir/Buildings/Base.cpp.o: Game/CMakeFiles/AIStrategyGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Anas/AI-Strategy-Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object Game/CMakeFiles/AIStrategyGame.dir/Buildings/Base.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Anas/AI-Strategy-Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object Game/CMakeFiles/AIStrategyGame.dir/Buildings/Base.cpp.o"
 	cd /mnt/c/Users/Anas/AI-Strategy-Game/build/Game && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Game/CMakeFiles/AIStrategyGame.dir/Buildings/Base.cpp.o -MF CMakeFiles/AIStrategyGame.dir/Buildings/Base.cpp.o.d -o CMakeFiles/AIStrategyGame.dir/Buildings/Base.cpp.o -c /mnt/c/Users/Anas/AI-Strategy-Game/Game/Buildings/Base.cpp
 
 Game/CMakeFiles/AIStrategyGame.dir/Buildings/Base.cpp.i: cmake_force
@@ -184,7 +198,7 @@ Game/CMakeFiles/AIStrategyGame.dir/Buildings/Base.cpp.s: cmake_force
 Game/CMakeFiles/AIStrategyGame.dir/Buildings/ResourceMine.cpp.o: Game/CMakeFiles/AIStrategyGame.dir/flags.make
 Game/CMakeFiles/AIStrategyGame.dir/Buildings/ResourceMine.cpp.o: ../Game/Buildings/ResourceMine.cpp
 Game/CMakeFiles/AIStrategyGame.dir/Buildings/ResourceMine.cpp.o: Game/CMakeFiles/AIStrategyGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Anas/AI-Strategy-Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object Game/CMakeFiles/AIStrategyGame.dir/Buildings/ResourceMine.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Anas/AI-Strategy-Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object Game/CMakeFiles/AIStrategyGame.dir/Buildings/ResourceMine.cpp.o"
 	cd /mnt/c/Users/Anas/AI-Strategy-Game/build/Game && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Game/CMakeFiles/AIStrategyGame.dir/Buildings/ResourceMine.cpp.o -MF CMakeFiles/AIStrategyGame.dir/Buildings/ResourceMine.cpp.o.d -o CMakeFiles/AIStrategyGame.dir/Buildings/ResourceMine.cpp.o -c /mnt/c/Users/Anas/AI-Strategy-Game/Game/Buildings/ResourceMine.cpp
 
 Game/CMakeFiles/AIStrategyGame.dir/Buildings/ResourceMine.cpp.i: cmake_force
@@ -198,7 +212,7 @@ Game/CMakeFiles/AIStrategyGame.dir/Buildings/ResourceMine.cpp.s: cmake_force
 Game/CMakeFiles/AIStrategyGame.dir/Buildings/Turret.cpp.o: Game/CMakeFiles/AIStrategyGame.dir/flags.make
 Game/CMakeFiles/AIStrategyGame.dir/Buildings/Turret.cpp.o: ../Game/Buildings/Turret.cpp
 Game/CMakeFiles/AIStrategyGame.dir/Buildings/Turret.cpp.o: Game/CMakeFiles/AIStrategyGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Anas/AI-Strategy-Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object Game/CMakeFiles/AIStrategyGame.dir/Buildings/Turret.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Anas/AI-Strategy-Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object Game/CMakeFiles/AIStrategyGame.dir/Buildings/Turret.cpp.o"
 	cd /mnt/c/Users/Anas/AI-Strategy-Game/build/Game && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Game/CMakeFiles/AIStrategyGame.dir/Buildings/Turret.cpp.o -MF CMakeFiles/AIStrategyGame.dir/Buildings/Turret.cpp.o.d -o CMakeFiles/AIStrategyGame.dir/Buildings/Turret.cpp.o -c /mnt/c/Users/Anas/AI-Strategy-Game/Game/Buildings/Turret.cpp
 
 Game/CMakeFiles/AIStrategyGame.dir/Buildings/Turret.cpp.i: cmake_force
@@ -217,6 +231,7 @@ AIStrategyGame_OBJECTS = \
 "CMakeFiles/AIStrategyGame.dir/Units/Worker.cpp.o" \
 "CMakeFiles/AIStrategyGame.dir/Units/Soldier.cpp.o" \
 "CMakeFiles/AIStrategyGame.dir/Units/Tank.cpp.o" \
+"CMakeFiles/AIStrategyGame.dir/Units/Scout.cpp.o" \
 "CMakeFiles/AIStrategyGame.dir/Buildings/Building.cpp.o" \
 "CMakeFiles/AIStrategyGame.dir/Buildings/Base.cpp.o" \
 "CMakeFiles/AIStrategyGame.dir/Buildings/ResourceMine.cpp.o" \
@@ -231,6 +246,7 @@ Game/AIStrategyGame: Game/CMakeFiles/AIStrategyGame.dir/Units/Unit.cpp.o
 Game/AIStrategyGame: Game/CMakeFiles/AIStrategyGame.dir/Units/Worker.cpp.o
 Game/AIStrategyGame: Game/CMakeFiles/AIStrategyGame.dir/Units/Soldier.cpp.o
 Game/AIStrategyGame: Game/CMakeFiles/AIStrategyGame.dir/Units/Tank.cpp.o
+Game/AIStrategyGame: Game/CMakeFiles/AIStrategyGame.dir/Units/Scout.cpp.o
 Game/AIStrategyGame: Game/CMakeFiles/AIStrategyGame.dir/Buildings/Building.cpp.o
 Game/AIStrategyGame: Game/CMakeFiles/AIStrategyGame.dir/Buildings/Base.cpp.o
 Game/AIStrategyGame: Game/CMakeFiles/AIStrategyGame.dir/Buildings/ResourceMine.cpp.o
@@ -241,7 +257,7 @@ Game/AIStrategyGame: /usr/lib/x86_64-linux-gnu/libsfml-graphics.so.2.5.1
 Game/AIStrategyGame: /usr/lib/x86_64-linux-gnu/libsfml-window.so.2.5.1
 Game/AIStrategyGame: /usr/lib/x86_64-linux-gnu/libsfml-system.so.2.5.1
 Game/AIStrategyGame: Game/CMakeFiles/AIStrategyGame.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/Anas/AI-Strategy-Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable AIStrategyGame"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/Anas/AI-Strategy-Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable AIStrategyGame"
 	cd /mnt/c/Users/Anas/AI-Strategy-Game/build/Game && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/AIStrategyGame.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
