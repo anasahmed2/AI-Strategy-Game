@@ -39,7 +39,8 @@ void AISystem::update(float deltaTime) {
 
     for (auto& entity : entities) {
         auto ai = entity->getComponent<AIComponent>();
-        if (!ai || !ai->stateMachine) {
+        auto team = entity->getComponent<TeamComponent>();
+        if (!ai || !ai->stateMachine || !team || !team->isAIControlled) {
             continue;
         }
 
@@ -63,7 +64,7 @@ void AISystem::updateBlackboards() {
         auto team = entity->getComponent<TeamComponent>();
         auto aiConfig = entity->getComponent<AIConfigComponent>();
         
-        if (!ai || !transform || !team || !aiConfig || !aiConfig->enabled) {
+        if (!ai || !transform || !team || !team->isAIControlled || !aiConfig || !aiConfig->enabled) {
             continue;
         }
         
@@ -91,7 +92,8 @@ void AISystem::updateAIDecisions() {
         auto movement = entity->getComponent<MovementComponent>();
         auto path = entity->getComponent<PathComponent>();
         auto role = entity->getComponent<RoleComponent>();
-        if (!ai || !aiConfig || !aiConfig->enabled || !command || !movement || !role) {
+        auto team = entity->getComponent<TeamComponent>();
+        if (!ai || !aiConfig || !aiConfig->enabled || !team || !team->isAIControlled || !command || !movement || !role) {
             continue;
         }
 

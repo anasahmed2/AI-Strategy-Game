@@ -365,7 +365,28 @@ Game/CMakeFiles/AIStrategyGame.dir/Buildings/Base.cpp.o: ../Game/Buildings/Base.
   /usr/include/c++/11/deque \
   /usr/include/c++/11/bits/stl_deque.h \
   /usr/include/c++/11/bits/deque.tcc \
-  /usr/include/c++/11/bits/stl_queue.h
+  /usr/include/c++/11/bits/stl_queue.h \
+  ../Engine/Systems/SoundSystem.h \
+  /usr/include/SFML/Audio.hpp \
+  /usr/include/SFML/Audio/InputSoundFile.hpp \
+  /usr/include/SFML/Audio/Export.hpp \
+  /usr/include/SFML/Audio/Listener.hpp \
+  /usr/include/SFML/Audio/Music.hpp \
+  /usr/include/SFML/Audio/SoundStream.hpp \
+  /usr/include/SFML/Audio/SoundSource.hpp \
+  /usr/include/SFML/Audio/AlResource.hpp \
+  /usr/include/SFML/Audio/OutputSoundFile.hpp \
+  /usr/include/SFML/Audio/Sound.hpp \
+  /usr/include/SFML/Audio/SoundBuffer.hpp \
+  /usr/include/c++/11/set \
+  /usr/include/c++/11/bits/stl_set.h \
+  /usr/include/c++/11/bits/stl_multiset.h \
+  /usr/include/SFML/Audio/SoundBufferRecorder.hpp \
+  /usr/include/SFML/Audio/SoundRecorder.hpp \
+  /usr/include/SFML/Audio/SoundFileFactory.hpp \
+  /usr/include/SFML/Audio/SoundFileFactory.inl \
+  /usr/include/SFML/Audio/SoundFileReader.hpp \
+  /usr/include/SFML/Audio/SoundFileWriter.hpp
 
 Game/CMakeFiles/AIStrategyGame.dir/Buildings/Building.cpp.o: ../Game/Buildings/Building.cpp \
   /usr/include/stdc-predef.h \
@@ -730,7 +751,28 @@ Game/CMakeFiles/AIStrategyGame.dir/Buildings/Building.cpp.o: ../Game/Buildings/B
   /usr/include/c++/11/deque \
   /usr/include/c++/11/bits/stl_deque.h \
   /usr/include/c++/11/bits/deque.tcc \
-  /usr/include/c++/11/bits/stl_queue.h
+  /usr/include/c++/11/bits/stl_queue.h \
+  ../Engine/Systems/SoundSystem.h \
+  /usr/include/SFML/Audio.hpp \
+  /usr/include/SFML/Audio/InputSoundFile.hpp \
+  /usr/include/SFML/Audio/Export.hpp \
+  /usr/include/SFML/Audio/Listener.hpp \
+  /usr/include/SFML/Audio/Music.hpp \
+  /usr/include/SFML/Audio/SoundStream.hpp \
+  /usr/include/SFML/Audio/SoundSource.hpp \
+  /usr/include/SFML/Audio/AlResource.hpp \
+  /usr/include/SFML/Audio/OutputSoundFile.hpp \
+  /usr/include/SFML/Audio/Sound.hpp \
+  /usr/include/SFML/Audio/SoundBuffer.hpp \
+  /usr/include/c++/11/set \
+  /usr/include/c++/11/bits/stl_set.h \
+  /usr/include/c++/11/bits/stl_multiset.h \
+  /usr/include/SFML/Audio/SoundBufferRecorder.hpp \
+  /usr/include/SFML/Audio/SoundRecorder.hpp \
+  /usr/include/SFML/Audio/SoundFileFactory.hpp \
+  /usr/include/SFML/Audio/SoundFileFactory.inl \
+  /usr/include/SFML/Audio/SoundFileReader.hpp \
+  /usr/include/SFML/Audio/SoundFileWriter.hpp
 
 Game/CMakeFiles/AIStrategyGame.dir/Buildings/ResourceMine.cpp.o: ../Game/Buildings/ResourceMine.cpp \
   /usr/include/stdc-predef.h \
@@ -1096,7 +1138,28 @@ Game/CMakeFiles/AIStrategyGame.dir/Buildings/ResourceMine.cpp.o: ../Game/Buildin
   /usr/include/c++/11/deque \
   /usr/include/c++/11/bits/stl_deque.h \
   /usr/include/c++/11/bits/deque.tcc \
-  /usr/include/c++/11/bits/stl_queue.h
+  /usr/include/c++/11/bits/stl_queue.h \
+  ../Engine/Systems/SoundSystem.h \
+  /usr/include/SFML/Audio.hpp \
+  /usr/include/SFML/Audio/InputSoundFile.hpp \
+  /usr/include/SFML/Audio/Export.hpp \
+  /usr/include/SFML/Audio/Listener.hpp \
+  /usr/include/SFML/Audio/Music.hpp \
+  /usr/include/SFML/Audio/SoundStream.hpp \
+  /usr/include/SFML/Audio/SoundSource.hpp \
+  /usr/include/SFML/Audio/AlResource.hpp \
+  /usr/include/SFML/Audio/OutputSoundFile.hpp \
+  /usr/include/SFML/Audio/Sound.hpp \
+  /usr/include/SFML/Audio/SoundBuffer.hpp \
+  /usr/include/c++/11/set \
+  /usr/include/c++/11/bits/stl_set.h \
+  /usr/include/c++/11/bits/stl_multiset.h \
+  /usr/include/SFML/Audio/SoundBufferRecorder.hpp \
+  /usr/include/SFML/Audio/SoundRecorder.hpp \
+  /usr/include/SFML/Audio/SoundFileFactory.hpp \
+  /usr/include/SFML/Audio/SoundFileFactory.inl \
+  /usr/include/SFML/Audio/SoundFileReader.hpp \
+  /usr/include/SFML/Audio/SoundFileWriter.hpp
 
 Game/CMakeFiles/AIStrategyGame.dir/Buildings/Turret.cpp.o: ../Game/Buildings/Turret.cpp \
   /usr/include/stdc-predef.h \
@@ -1462,7 +1525,28 @@ Game/CMakeFiles/AIStrategyGame.dir/Buildings/Turret.cpp.o: ../Game/Buildings/Tur
   /usr/include/c++/11/deque \
   /usr/include/c++/11/bits/stl_deque.h \
   /usr/include/c++/11/bits/deque.tcc \
-  /usr/include/c++/11/bits/stl_queue.h
+  /usr/include/c++/11/bits/stl_queue.h \
+  ../Engine/Systems/SoundSystem.h \
+  /usr/include/SFML/Audio.hpp \
+  /usr/include/SFML/Audio/InputSoundFile.hpp \
+  /usr/include/SFML/Audio/Export.hpp \
+  /usr/include/SFML/Audio/Listener.hpp \
+  /usr/include/SFML/Audio/Music.hpp \
+  /usr/include/SFML/Audio/SoundStream.hpp \
+  /usr/include/SFML/Audio/SoundSource.hpp \
+  /usr/include/SFML/Audio/AlResource.hpp \
+  /usr/include/SFML/Audio/OutputSoundFile.hpp \
+  /usr/include/SFML/Audio/Sound.hpp \
+  /usr/include/SFML/Audio/SoundBuffer.hpp \
+  /usr/include/c++/11/set \
+  /usr/include/c++/11/bits/stl_set.h \
+  /usr/include/c++/11/bits/stl_multiset.h \
+  /usr/include/SFML/Audio/SoundBufferRecorder.hpp \
+  /usr/include/SFML/Audio/SoundRecorder.hpp \
+  /usr/include/SFML/Audio/SoundFileFactory.hpp \
+  /usr/include/SFML/Audio/SoundFileFactory.inl \
+  /usr/include/SFML/Audio/SoundFileReader.hpp \
+  /usr/include/SFML/Audio/SoundFileWriter.hpp
 
 Game/CMakeFiles/AIStrategyGame.dir/GameManager.cpp.o: ../Game/GameManager.cpp \
   /usr/include/stdc-predef.h \
@@ -1828,6 +1912,27 @@ Game/CMakeFiles/AIStrategyGame.dir/GameManager.cpp.o: ../Game/GameManager.cpp \
   /usr/include/c++/11/bits/stl_deque.h \
   /usr/include/c++/11/bits/deque.tcc \
   /usr/include/c++/11/bits/stl_queue.h \
+  ../Engine/Systems/SoundSystem.h \
+  /usr/include/SFML/Audio.hpp \
+  /usr/include/SFML/Audio/InputSoundFile.hpp \
+  /usr/include/SFML/Audio/Export.hpp \
+  /usr/include/SFML/Audio/Listener.hpp \
+  /usr/include/SFML/Audio/Music.hpp \
+  /usr/include/SFML/Audio/SoundStream.hpp \
+  /usr/include/SFML/Audio/SoundSource.hpp \
+  /usr/include/SFML/Audio/AlResource.hpp \
+  /usr/include/SFML/Audio/OutputSoundFile.hpp \
+  /usr/include/SFML/Audio/Sound.hpp \
+  /usr/include/SFML/Audio/SoundBuffer.hpp \
+  /usr/include/c++/11/set \
+  /usr/include/c++/11/bits/stl_set.h \
+  /usr/include/c++/11/bits/stl_multiset.h \
+  /usr/include/SFML/Audio/SoundBufferRecorder.hpp \
+  /usr/include/SFML/Audio/SoundRecorder.hpp \
+  /usr/include/SFML/Audio/SoundFileFactory.hpp \
+  /usr/include/SFML/Audio/SoundFileFactory.inl \
+  /usr/include/SFML/Audio/SoundFileReader.hpp \
+  /usr/include/SFML/Audio/SoundFileWriter.hpp \
   /usr/include/c++/11/iostream \
   /usr/include/c++/11/istream \
   /usr/include/c++/11/bits/istream.tcc \
@@ -2205,7 +2310,28 @@ Game/CMakeFiles/AIStrategyGame.dir/Units/Scout.cpp.o: ../Game/Units/Scout.cpp \
   /usr/include/c++/11/deque \
   /usr/include/c++/11/bits/stl_deque.h \
   /usr/include/c++/11/bits/deque.tcc \
-  /usr/include/c++/11/bits/stl_queue.h
+  /usr/include/c++/11/bits/stl_queue.h \
+  ../Engine/Systems/SoundSystem.h \
+  /usr/include/SFML/Audio.hpp \
+  /usr/include/SFML/Audio/InputSoundFile.hpp \
+  /usr/include/SFML/Audio/Export.hpp \
+  /usr/include/SFML/Audio/Listener.hpp \
+  /usr/include/SFML/Audio/Music.hpp \
+  /usr/include/SFML/Audio/SoundStream.hpp \
+  /usr/include/SFML/Audio/SoundSource.hpp \
+  /usr/include/SFML/Audio/AlResource.hpp \
+  /usr/include/SFML/Audio/OutputSoundFile.hpp \
+  /usr/include/SFML/Audio/Sound.hpp \
+  /usr/include/SFML/Audio/SoundBuffer.hpp \
+  /usr/include/c++/11/set \
+  /usr/include/c++/11/bits/stl_set.h \
+  /usr/include/c++/11/bits/stl_multiset.h \
+  /usr/include/SFML/Audio/SoundBufferRecorder.hpp \
+  /usr/include/SFML/Audio/SoundRecorder.hpp \
+  /usr/include/SFML/Audio/SoundFileFactory.hpp \
+  /usr/include/SFML/Audio/SoundFileFactory.inl \
+  /usr/include/SFML/Audio/SoundFileReader.hpp \
+  /usr/include/SFML/Audio/SoundFileWriter.hpp
 
 Game/CMakeFiles/AIStrategyGame.dir/Units/Soldier.cpp.o: ../Game/Units/Soldier.cpp \
   /usr/include/stdc-predef.h \
@@ -2571,7 +2697,28 @@ Game/CMakeFiles/AIStrategyGame.dir/Units/Soldier.cpp.o: ../Game/Units/Soldier.cp
   /usr/include/c++/11/deque \
   /usr/include/c++/11/bits/stl_deque.h \
   /usr/include/c++/11/bits/deque.tcc \
-  /usr/include/c++/11/bits/stl_queue.h
+  /usr/include/c++/11/bits/stl_queue.h \
+  ../Engine/Systems/SoundSystem.h \
+  /usr/include/SFML/Audio.hpp \
+  /usr/include/SFML/Audio/InputSoundFile.hpp \
+  /usr/include/SFML/Audio/Export.hpp \
+  /usr/include/SFML/Audio/Listener.hpp \
+  /usr/include/SFML/Audio/Music.hpp \
+  /usr/include/SFML/Audio/SoundStream.hpp \
+  /usr/include/SFML/Audio/SoundSource.hpp \
+  /usr/include/SFML/Audio/AlResource.hpp \
+  /usr/include/SFML/Audio/OutputSoundFile.hpp \
+  /usr/include/SFML/Audio/Sound.hpp \
+  /usr/include/SFML/Audio/SoundBuffer.hpp \
+  /usr/include/c++/11/set \
+  /usr/include/c++/11/bits/stl_set.h \
+  /usr/include/c++/11/bits/stl_multiset.h \
+  /usr/include/SFML/Audio/SoundBufferRecorder.hpp \
+  /usr/include/SFML/Audio/SoundRecorder.hpp \
+  /usr/include/SFML/Audio/SoundFileFactory.hpp \
+  /usr/include/SFML/Audio/SoundFileFactory.inl \
+  /usr/include/SFML/Audio/SoundFileReader.hpp \
+  /usr/include/SFML/Audio/SoundFileWriter.hpp
 
 Game/CMakeFiles/AIStrategyGame.dir/Units/Tank.cpp.o: ../Game/Units/Tank.cpp \
   /usr/include/stdc-predef.h \
@@ -2937,7 +3084,28 @@ Game/CMakeFiles/AIStrategyGame.dir/Units/Tank.cpp.o: ../Game/Units/Tank.cpp \
   /usr/include/c++/11/deque \
   /usr/include/c++/11/bits/stl_deque.h \
   /usr/include/c++/11/bits/deque.tcc \
-  /usr/include/c++/11/bits/stl_queue.h
+  /usr/include/c++/11/bits/stl_queue.h \
+  ../Engine/Systems/SoundSystem.h \
+  /usr/include/SFML/Audio.hpp \
+  /usr/include/SFML/Audio/InputSoundFile.hpp \
+  /usr/include/SFML/Audio/Export.hpp \
+  /usr/include/SFML/Audio/Listener.hpp \
+  /usr/include/SFML/Audio/Music.hpp \
+  /usr/include/SFML/Audio/SoundStream.hpp \
+  /usr/include/SFML/Audio/SoundSource.hpp \
+  /usr/include/SFML/Audio/AlResource.hpp \
+  /usr/include/SFML/Audio/OutputSoundFile.hpp \
+  /usr/include/SFML/Audio/Sound.hpp \
+  /usr/include/SFML/Audio/SoundBuffer.hpp \
+  /usr/include/c++/11/set \
+  /usr/include/c++/11/bits/stl_set.h \
+  /usr/include/c++/11/bits/stl_multiset.h \
+  /usr/include/SFML/Audio/SoundBufferRecorder.hpp \
+  /usr/include/SFML/Audio/SoundRecorder.hpp \
+  /usr/include/SFML/Audio/SoundFileFactory.hpp \
+  /usr/include/SFML/Audio/SoundFileFactory.inl \
+  /usr/include/SFML/Audio/SoundFileReader.hpp \
+  /usr/include/SFML/Audio/SoundFileWriter.hpp
 
 Game/CMakeFiles/AIStrategyGame.dir/Units/Unit.cpp.o: ../Game/Units/Unit.cpp \
   /usr/include/stdc-predef.h \
@@ -3302,7 +3470,28 @@ Game/CMakeFiles/AIStrategyGame.dir/Units/Unit.cpp.o: ../Game/Units/Unit.cpp \
   /usr/include/c++/11/deque \
   /usr/include/c++/11/bits/stl_deque.h \
   /usr/include/c++/11/bits/deque.tcc \
-  /usr/include/c++/11/bits/stl_queue.h
+  /usr/include/c++/11/bits/stl_queue.h \
+  ../Engine/Systems/SoundSystem.h \
+  /usr/include/SFML/Audio.hpp \
+  /usr/include/SFML/Audio/InputSoundFile.hpp \
+  /usr/include/SFML/Audio/Export.hpp \
+  /usr/include/SFML/Audio/Listener.hpp \
+  /usr/include/SFML/Audio/Music.hpp \
+  /usr/include/SFML/Audio/SoundStream.hpp \
+  /usr/include/SFML/Audio/SoundSource.hpp \
+  /usr/include/SFML/Audio/AlResource.hpp \
+  /usr/include/SFML/Audio/OutputSoundFile.hpp \
+  /usr/include/SFML/Audio/Sound.hpp \
+  /usr/include/SFML/Audio/SoundBuffer.hpp \
+  /usr/include/c++/11/set \
+  /usr/include/c++/11/bits/stl_set.h \
+  /usr/include/c++/11/bits/stl_multiset.h \
+  /usr/include/SFML/Audio/SoundBufferRecorder.hpp \
+  /usr/include/SFML/Audio/SoundRecorder.hpp \
+  /usr/include/SFML/Audio/SoundFileFactory.hpp \
+  /usr/include/SFML/Audio/SoundFileFactory.inl \
+  /usr/include/SFML/Audio/SoundFileReader.hpp \
+  /usr/include/SFML/Audio/SoundFileWriter.hpp
 
 Game/CMakeFiles/AIStrategyGame.dir/Units/Worker.cpp.o: ../Game/Units/Worker.cpp \
   /usr/include/stdc-predef.h \
@@ -3668,7 +3857,28 @@ Game/CMakeFiles/AIStrategyGame.dir/Units/Worker.cpp.o: ../Game/Units/Worker.cpp 
   /usr/include/c++/11/deque \
   /usr/include/c++/11/bits/stl_deque.h \
   /usr/include/c++/11/bits/deque.tcc \
-  /usr/include/c++/11/bits/stl_queue.h
+  /usr/include/c++/11/bits/stl_queue.h \
+  ../Engine/Systems/SoundSystem.h \
+  /usr/include/SFML/Audio.hpp \
+  /usr/include/SFML/Audio/InputSoundFile.hpp \
+  /usr/include/SFML/Audio/Export.hpp \
+  /usr/include/SFML/Audio/Listener.hpp \
+  /usr/include/SFML/Audio/Music.hpp \
+  /usr/include/SFML/Audio/SoundStream.hpp \
+  /usr/include/SFML/Audio/SoundSource.hpp \
+  /usr/include/SFML/Audio/AlResource.hpp \
+  /usr/include/SFML/Audio/OutputSoundFile.hpp \
+  /usr/include/SFML/Audio/Sound.hpp \
+  /usr/include/SFML/Audio/SoundBuffer.hpp \
+  /usr/include/c++/11/set \
+  /usr/include/c++/11/bits/stl_set.h \
+  /usr/include/c++/11/bits/stl_multiset.h \
+  /usr/include/SFML/Audio/SoundBufferRecorder.hpp \
+  /usr/include/SFML/Audio/SoundRecorder.hpp \
+  /usr/include/SFML/Audio/SoundFileFactory.hpp \
+  /usr/include/SFML/Audio/SoundFileFactory.inl \
+  /usr/include/SFML/Audio/SoundFileReader.hpp \
+  /usr/include/SFML/Audio/SoundFileWriter.hpp
 
 Game/CMakeFiles/AIStrategyGame.dir/main.cpp.o: ../Game/main.cpp \
   /usr/include/stdc-predef.h \
@@ -4039,7 +4249,28 @@ Game/CMakeFiles/AIStrategyGame.dir/main.cpp.o: ../Game/main.cpp \
   /usr/include/c++/11/deque \
   /usr/include/c++/11/bits/stl_deque.h \
   /usr/include/c++/11/bits/deque.tcc \
-  /usr/include/c++/11/bits/stl_queue.h
+  /usr/include/c++/11/bits/stl_queue.h \
+  ../Engine/Systems/SoundSystem.h \
+  /usr/include/SFML/Audio.hpp \
+  /usr/include/SFML/Audio/InputSoundFile.hpp \
+  /usr/include/SFML/Audio/Export.hpp \
+  /usr/include/SFML/Audio/Listener.hpp \
+  /usr/include/SFML/Audio/Music.hpp \
+  /usr/include/SFML/Audio/SoundStream.hpp \
+  /usr/include/SFML/Audio/SoundSource.hpp \
+  /usr/include/SFML/Audio/AlResource.hpp \
+  /usr/include/SFML/Audio/OutputSoundFile.hpp \
+  /usr/include/SFML/Audio/Sound.hpp \
+  /usr/include/SFML/Audio/SoundBuffer.hpp \
+  /usr/include/c++/11/set \
+  /usr/include/c++/11/bits/stl_set.h \
+  /usr/include/c++/11/bits/stl_multiset.h \
+  /usr/include/SFML/Audio/SoundBufferRecorder.hpp \
+  /usr/include/SFML/Audio/SoundRecorder.hpp \
+  /usr/include/SFML/Audio/SoundFileFactory.hpp \
+  /usr/include/SFML/Audio/SoundFileFactory.inl \
+  /usr/include/SFML/Audio/SoundFileReader.hpp \
+  /usr/include/SFML/Audio/SoundFileWriter.hpp
 
 
 /usr/include/c++/11/bits/parse_numbers.h:
@@ -4065,6 +4296,30 @@ Game/CMakeFiles/AIStrategyGame.dir/main.cpp.o: ../Game/main.cpp \
 ../Game/Buildings/ResourceMine.h:
 
 ../Game/Buildings/ResourceMine.cpp:
+
+/usr/include/SFML/Audio/SoundRecorder.hpp:
+
+/usr/include/SFML/Audio/SoundBufferRecorder.hpp:
+
+/usr/include/c++/11/bits/stl_multiset.h:
+
+/usr/include/c++/11/set:
+
+/usr/include/SFML/Audio/SoundBuffer.hpp:
+
+/usr/include/SFML/Audio/Sound.hpp:
+
+/usr/include/SFML/Audio/OutputSoundFile.hpp:
+
+/usr/include/SFML/Audio/AlResource.hpp:
+
+/usr/include/SFML/Audio/Music.hpp:
+
+/usr/include/SFML/Audio/Listener.hpp:
+
+/usr/include/SFML/Audio/SoundStream.hpp:
+
+../Engine/Systems/SoundSystem.h:
 
 /usr/include/c++/11/bits/deque.tcc:
 
@@ -4142,6 +4397,8 @@ Game/CMakeFiles/AIStrategyGame.dir/main.cpp.o: ../Game/main.cpp \
 
 /usr/include/SFML/Window/WindowHandle.hpp:
 
+/usr/include/c++/11/bits/stl_set.h:
+
 /usr/include/SFML/Window/Window.hpp:
 
 /usr/include/SFML/Graphics/Font.hpp:
@@ -4161,6 +4418,8 @@ Game/CMakeFiles/AIStrategyGame.dir/main.cpp.o: ../Game/main.cpp \
 /usr/include/SFML/System/Vector3.inl:
 
 /usr/include/SFML/System/Vector2.hpp:
+
+/usr/include/SFML/Audio.hpp:
 
 /usr/include/SFML/System/ThreadLocalPtr.inl:
 
@@ -4223,6 +4482,8 @@ Game/CMakeFiles/AIStrategyGame.dir/main.cpp.o: ../Game/main.cpp \
 /usr/include/x86_64-linux-gnu/bits/setjmp.h:
 
 /usr/include/time.h:
+
+/usr/include/SFML/Audio/SoundFileWriter.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/cpu-set.h:
 
@@ -4356,6 +4617,8 @@ Game/CMakeFiles/AIStrategyGame.dir/main.cpp.o: ../Game/main.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/types.h:
 
+/usr/include/SFML/Audio/SoundSource.hpp:
+
 /usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
 
 /usr/include/SFML/Window/Context.hpp:
@@ -4419,6 +4682,8 @@ Game/CMakeFiles/AIStrategyGame.dir/main.cpp.o: ../Game/main.cpp \
 ../Game/Buildings/Base.cpp:
 
 /usr/include/c++/11/streambuf:
+
+/usr/include/SFML/Audio/SoundFileFactory.inl:
 
 /usr/include/c++/11/initializer_list:
 
@@ -4602,6 +4867,8 @@ Game/CMakeFiles/AIStrategyGame.dir/main.cpp.o: ../Game/main.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/types/error_t.h:
 
+/usr/include/SFML/Audio/SoundFileReader.hpp:
+
 /usr/include/x86_64-linux-gnu/bits/mathcalls.h:
 
 /usr/include/c++/11/bits/postypes.h:
@@ -4656,6 +4923,8 @@ Game/CMakeFiles/AIStrategyGame.dir/main.cpp.o: ../Game/main.cpp \
 
 /usr/include/c++/11/tr1/hypergeometric.tcc:
 
+/usr/include/SFML/Audio/Export.hpp:
+
 /usr/include/c++/11/bits/localefwd.h:
 
 /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
@@ -4695,6 +4964,8 @@ Game/CMakeFiles/AIStrategyGame.dir/main.cpp.o: ../Game/main.cpp \
 /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
 
 /usr/include/c++/11/typeindex:
+
+/usr/include/SFML/Audio/SoundFileFactory.hpp:
 
 /usr/include/c++/11/cctype:
 
@@ -4775,6 +5046,8 @@ Game/CMakeFiles/AIStrategyGame.dir/main.cpp.o: ../Game/main.cpp \
 /usr/include/wctype.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h:
+
+/usr/include/SFML/Audio/InputSoundFile.hpp:
 
 /usr/include/c++/11/bits/charconv.h:
 

@@ -133,8 +133,8 @@ void Engine::pollEvents() {
                                selected->hasComponent<ResourceCollectorComponent>()) {
                         selectedCommand->type = CommandType::Gather;
                         selectedCommand->targetEntityId = clickedEntity->getId();
-                        selectedCommand->targetPosition = clickPos;
-                        assignPathToEntity(selected, clickPos);
+                        selectedCommand->targetPosition = clickedTransform->position;
+                        assignPathToEntity(selected, clickedTransform->position);
                         issued = true;
                     }
                 }
@@ -150,11 +150,14 @@ void Engine::pollEvents() {
             // Play command sound
             if (soundSystem && !selectedEntities.empty()) {
                 bool anyAttack = false;
+                bool anyGather = false;
                 for (auto& e : selectedEntities) {
                     auto cmd = e->getComponent<CommandComponent>();
                     if (cmd && cmd->type == CommandType::Attack) { anyAttack = true; break; }
+                    if (cmd && cmd->type == CommandType::Gather) { anyGather = true; }
                 }
                 if (anyAttack) soundSystem->playAttack();
+                else if (anyGather) soundSystem->playGather();
                 else          soundSystem->playMove();
             }
         }
@@ -221,7 +224,7 @@ void Engine::rebuildPathGrid() {
         }
 
         bool blocksPath = role->role == EntityRole::Obstacle || role->role == EntityRole::Base ||
-                          role->role == EntityRole::Turret || role->role == EntityRole::ResourceMine;
+                  role->role == EntityRole::Turret;
         if (!blocksPath) {
             continue;
         }

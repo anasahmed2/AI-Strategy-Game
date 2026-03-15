@@ -115,7 +115,7 @@ struct ResourceCollectorComponent : public Component {
     std::string resourceType;  // "Gold", "Energy", "Wood"
     float carryAmount = 0.0f;
     float carryCapacity = 50.0f;
-    float gatherRange = 36.0f;
+    float gatherRange = 56.0f;
     float dropOffRange = 56.0f;
     
     ResourceCollectorComponent() = default;

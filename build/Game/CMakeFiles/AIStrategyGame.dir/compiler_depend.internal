@@ -367,6 +367,27 @@ Game/CMakeFiles/AIStrategyGame.dir/Buildings/Base.cpp.o
  /usr/include/c++/11/bits/stl_deque.h
  /usr/include/c++/11/bits/deque.tcc
  /usr/include/c++/11/bits/stl_queue.h
+ /mnt/c/Users/Anas/AI-Strategy-Game/Engine/Systems/SoundSystem.h
+ /usr/include/SFML/Audio.hpp
+ /usr/include/SFML/Audio/InputSoundFile.hpp
+ /usr/include/SFML/Audio/Export.hpp
+ /usr/include/SFML/Audio/Listener.hpp
+ /usr/include/SFML/Audio/Music.hpp
+ /usr/include/SFML/Audio/SoundStream.hpp
+ /usr/include/SFML/Audio/SoundSource.hpp
+ /usr/include/SFML/Audio/AlResource.hpp
+ /usr/include/SFML/Audio/OutputSoundFile.hpp
+ /usr/include/SFML/Audio/Sound.hpp
+ /usr/include/SFML/Audio/SoundBuffer.hpp
+ /usr/include/c++/11/set
+ /usr/include/c++/11/bits/stl_set.h
+ /usr/include/c++/11/bits/stl_multiset.h
+ /usr/include/SFML/Audio/SoundBufferRecorder.hpp
+ /usr/include/SFML/Audio/SoundRecorder.hpp
+ /usr/include/SFML/Audio/SoundFileFactory.hpp
+ /usr/include/SFML/Audio/SoundFileFactory.inl
+ /usr/include/SFML/Audio/SoundFileReader.hpp
+ /usr/include/SFML/Audio/SoundFileWriter.hpp
 
 Game/CMakeFiles/AIStrategyGame.dir/Buildings/Building.cpp.o
  /mnt/c/Users/Anas/AI-Strategy-Game/Game/Buildings/Building.cpp
@@ -733,6 +754,27 @@ Game/CMakeFiles/AIStrategyGame.dir/Buildings/Building.cpp.o
  /usr/include/c++/11/bits/stl_deque.h
  /usr/include/c++/11/bits/deque.tcc
  /usr/include/c++/11/bits/stl_queue.h
+ /mnt/c/Users/Anas/AI-Strategy-Game/Engine/Systems/SoundSystem.h
+ /usr/include/SFML/Audio.hpp
+ /usr/include/SFML/Audio/InputSoundFile.hpp
+ /usr/include/SFML/Audio/Export.hpp
+ /usr/include/SFML/Audio/Listener.hpp
+ /usr/include/SFML/Audio/Music.hpp
+ /usr/include/SFML/Audio/SoundStream.hpp
+ /usr/include/SFML/Audio/SoundSource.hpp
+ /usr/include/SFML/Audio/AlResource.hpp
+ /usr/include/SFML/Audio/OutputSoundFile.hpp
+ /usr/include/SFML/Audio/Sound.hpp
+ /usr/include/SFML/Audio/SoundBuffer.hpp
+ /usr/include/c++/11/set
+ /usr/include/c++/11/bits/stl_set.h
+ /usr/include/c++/11/bits/stl_multiset.h
+ /usr/include/SFML/Audio/SoundBufferRecorder.hpp
+ /usr/include/SFML/Audio/SoundRecorder.hpp
+ /usr/include/SFML/Audio/SoundFileFactory.hpp
+ /usr/include/SFML/Audio/SoundFileFactory.inl
+ /usr/include/SFML/Audio/SoundFileReader.hpp
+ /usr/include/SFML/Audio/SoundFileWriter.hpp
 
 Game/CMakeFiles/AIStrategyGame.dir/Buildings/ResourceMine.cpp.o
  /mnt/c/Users/Anas/AI-Strategy-Game/Game/Buildings/ResourceMine.cpp
@@ -1100,6 +1142,27 @@ Game/CMakeFiles/AIStrategyGame.dir/Buildings/ResourceMine.cpp.o
  /usr/include/c++/11/bits/stl_deque.h
  /usr/include/c++/11/bits/deque.tcc
  /usr/include/c++/11/bits/stl_queue.h
+ /mnt/c/Users/Anas/AI-Strategy-Game/Engine/Systems/SoundSystem.h
+ /usr/include/SFML/Audio.hpp
+ /usr/include/SFML/Audio/InputSoundFile.hpp
+ /usr/include/SFML/Audio/Export.hpp
+ /usr/include/SFML/Audio/Listener.hpp
+ /usr/include/SFML/Audio/Music.hpp
+ /usr/include/SFML/Audio/SoundStream.hpp
+ /usr/include/SFML/Audio/SoundSource.hpp
+ /usr/include/SFML/Audio/AlResource.hpp
+ /usr/include/SFML/Audio/OutputSoundFile.hpp
+ /usr/include/SFML/Audio/Sound.hpp
+ /usr/include/SFML/Audio/SoundBuffer.hpp
+ /usr/include/c++/11/set
+ /usr/include/c++/11/bits/stl_set.h
+ /usr/include/c++/11/bits/stl_multiset.h
+ /usr/include/SFML/Audio/SoundBufferRecorder.hpp
+ /usr/include/SFML/Audio/SoundRecorder.hpp
+ /usr/include/SFML/Audio/SoundFileFactory.hpp
+ /usr/include/SFML/Audio/SoundFileFactory.inl
+ /usr/include/SFML/Audio/SoundFileReader.hpp
+ /usr/include/SFML/Audio/SoundFileWriter.hpp
 
 Game/CMakeFiles/AIStrategyGame.dir/Buildings/Turret.cpp.o
  /mnt/c/Users/Anas/AI-Strategy-Game/Game/Buildings/Turret.cpp
@@ -1467,6 +1530,27 @@ Game/CMakeFiles/AIStrategyGame.dir/Buildings/Turret.cpp.o
  /usr/include/c++/11/bits/stl_deque.h
  /usr/include/c++/11/bits/deque.tcc
  /usr/include/c++/11/bits/stl_queue.h
+ /mnt/c/Users/Anas/AI-Strategy-Game/Engine/Systems/SoundSystem.h
+ /usr/include/SFML/Audio.hpp
+ /usr/include/SFML/Audio/InputSoundFile.hpp
+ /usr/include/SFML/Audio/Export.hpp
+ /usr/include/SFML/Audio/Listener.hpp
+ /usr/include/SFML/Audio/Music.hpp
+ /usr/include/SFML/Audio/SoundStream.hpp
+ /usr/include/SFML/Audio/SoundSource.hpp
+ /usr/include/SFML/Audio/AlResource.hpp
+ /usr/include/SFML/Audio/OutputSoundFile.hpp
+ /usr/include/SFML/Audio/Sound.hpp
+ /usr/include/SFML/Audio/SoundBuffer.hpp
+ /usr/include/c++/11/set
+ /usr/include/c++/11/bits/stl_set.h
+ /usr/include/c++/11/bits/stl_multiset.h
+ /usr/include/SFML/Audio/SoundBufferRecorder.hpp
+ /usr/include/SFML/Audio/SoundRecorder.hpp
+ /usr/include/SFML/Audio/SoundFileFactory.hpp
+ /usr/include/SFML/Audio/SoundFileFactory.inl
+ /usr/include/SFML/Audio/SoundFileReader.hpp
+ /usr/include/SFML/Audio/SoundFileWriter.hpp
 
 Game/CMakeFiles/AIStrategyGame.dir/GameManager.cpp.o
  /mnt/c/Users/Anas/AI-Strategy-Game/Game/GameManager.cpp
@@ -1833,6 +1917,27 @@ Game/CMakeFiles/AIStrategyGame.dir/GameManager.cpp.o
  /usr/include/c++/11/bits/stl_deque.h
  /usr/include/c++/11/bits/deque.tcc
  /usr/include/c++/11/bits/stl_queue.h
+ /mnt/c/Users/Anas/AI-Strategy-Game/Engine/Systems/SoundSystem.h
+ /usr/include/SFML/Audio.hpp
+ /usr/include/SFML/Audio/InputSoundFile.hpp
+ /usr/include/SFML/Audio/Export.hpp
+ /usr/include/SFML/Audio/Listener.hpp
+ /usr/include/SFML/Audio/Music.hpp
+ /usr/include/SFML/Audio/SoundStream.hpp
+ /usr/include/SFML/Audio/SoundSource.hpp
+ /usr/include/SFML/Audio/AlResource.hpp
+ /usr/include/SFML/Audio/OutputSoundFile.hpp
+ /usr/include/SFML/Audio/Sound.hpp
+ /usr/include/SFML/Audio/SoundBuffer.hpp
+ /usr/include/c++/11/set
+ /usr/include/c++/11/bits/stl_set.h
+ /usr/include/c++/11/bits/stl_multiset.h
+ /usr/include/SFML/Audio/SoundBufferRecorder.hpp
+ /usr/include/SFML/Audio/SoundRecorder.hpp
+ /usr/include/SFML/Audio/SoundFileFactory.hpp
+ /usr/include/SFML/Audio/SoundFileFactory.inl
+ /usr/include/SFML/Audio/SoundFileReader.hpp
+ /usr/include/SFML/Audio/SoundFileWriter.hpp
  /usr/include/c++/11/iostream
  /usr/include/c++/11/istream
  /usr/include/c++/11/bits/istream.tcc
@@ -2212,6 +2317,27 @@ Game/CMakeFiles/AIStrategyGame.dir/Units/Scout.cpp.o
  /usr/include/c++/11/bits/stl_deque.h
  /usr/include/c++/11/bits/deque.tcc
  /usr/include/c++/11/bits/stl_queue.h
+ /mnt/c/Users/Anas/AI-Strategy-Game/Engine/Systems/SoundSystem.h
+ /usr/include/SFML/Audio.hpp
+ /usr/include/SFML/Audio/InputSoundFile.hpp
+ /usr/include/SFML/Audio/Export.hpp
+ /usr/include/SFML/Audio/Listener.hpp
+ /usr/include/SFML/Audio/Music.hpp
+ /usr/include/SFML/Audio/SoundStream.hpp
+ /usr/include/SFML/Audio/SoundSource.hpp
+ /usr/include/SFML/Audio/AlResource.hpp
+ /usr/include/SFML/Audio/OutputSoundFile.hpp
+ /usr/include/SFML/Audio/Sound.hpp
+ /usr/include/SFML/Audio/SoundBuffer.hpp
+ /usr/include/c++/11/set
+ /usr/include/c++/11/bits/stl_set.h
+ /usr/include/c++/11/bits/stl_multiset.h
+ /usr/include/SFML/Audio/SoundBufferRecorder.hpp
+ /usr/include/SFML/Audio/SoundRecorder.hpp
+ /usr/include/SFML/Audio/SoundFileFactory.hpp
+ /usr/include/SFML/Audio/SoundFileFactory.inl
+ /usr/include/SFML/Audio/SoundFileReader.hpp
+ /usr/include/SFML/Audio/SoundFileWriter.hpp
 
 Game/CMakeFiles/AIStrategyGame.dir/Units/Soldier.cpp.o
  /mnt/c/Users/Anas/AI-Strategy-Game/Game/Units/Soldier.cpp
@@ -2579,6 +2705,27 @@ Game/CMakeFiles/AIStrategyGame.dir/Units/Soldier.cpp.o
  /usr/include/c++/11/bits/stl_deque.h
  /usr/include/c++/11/bits/deque.tcc
  /usr/include/c++/11/bits/stl_queue.h
+ /mnt/c/Users/Anas/AI-Strategy-Game/Engine/Systems/SoundSystem.h
+ /usr/include/SFML/Audio.hpp
+ /usr/include/SFML/Audio/InputSoundFile.hpp
+ /usr/include/SFML/Audio/Export.hpp
+ /usr/include/SFML/Audio/Listener.hpp
+ /usr/include/SFML/Audio/Music.hpp
+ /usr/include/SFML/Audio/SoundStream.hpp
+ /usr/include/SFML/Audio/SoundSource.hpp
+ /usr/include/SFML/Audio/AlResource.hpp
+ /usr/include/SFML/Audio/OutputSoundFile.hpp
+ /usr/include/SFML/Audio/Sound.hpp
+ /usr/include/SFML/Audio/SoundBuffer.hpp
+ /usr/include/c++/11/set
+ /usr/include/c++/11/bits/stl_set.h
+ /usr/include/c++/11/bits/stl_multiset.h
+ /usr/include/SFML/Audio/SoundBufferRecorder.hpp
+ /usr/include/SFML/Audio/SoundRecorder.hpp
+ /usr/include/SFML/Audio/SoundFileFactory.hpp
+ /usr/include/SFML/Audio/SoundFileFactory.inl
+ /usr/include/SFML/Audio/SoundFileReader.hpp
+ /usr/include/SFML/Audio/SoundFileWriter.hpp
 
 Game/CMakeFiles/AIStrategyGame.dir/Units/Tank.cpp.o
  /mnt/c/Users/Anas/AI-Strategy-Game/Game/Units/Tank.cpp
@@ -2946,6 +3093,27 @@ Game/CMakeFiles/AIStrategyGame.dir/Units/Tank.cpp.o
  /usr/include/c++/11/bits/stl_deque.h
  /usr/include/c++/11/bits/deque.tcc
  /usr/include/c++/11/bits/stl_queue.h
+ /mnt/c/Users/Anas/AI-Strategy-Game/Engine/Systems/SoundSystem.h
+ /usr/include/SFML/Audio.hpp
+ /usr/include/SFML/Audio/InputSoundFile.hpp
+ /usr/include/SFML/Audio/Export.hpp
+ /usr/include/SFML/Audio/Listener.hpp
+ /usr/include/SFML/Audio/Music.hpp
+ /usr/include/SFML/Audio/SoundStream.hpp
+ /usr/include/SFML/Audio/SoundSource.hpp
+ /usr/include/SFML/Audio/AlResource.hpp
+ /usr/include/SFML/Audio/OutputSoundFile.hpp
+ /usr/include/SFML/Audio/Sound.hpp
+ /usr/include/SFML/Audio/SoundBuffer.hpp
+ /usr/include/c++/11/set
+ /usr/include/c++/11/bits/stl_set.h
+ /usr/include/c++/11/bits/stl_multiset.h
+ /usr/include/SFML/Audio/SoundBufferRecorder.hpp
+ /usr/include/SFML/Audio/SoundRecorder.hpp
+ /usr/include/SFML/Audio/SoundFileFactory.hpp
+ /usr/include/SFML/Audio/SoundFileFactory.inl
+ /usr/include/SFML/Audio/SoundFileReader.hpp
+ /usr/include/SFML/Audio/SoundFileWriter.hpp
 
 Game/CMakeFiles/AIStrategyGame.dir/Units/Unit.cpp.o
  /mnt/c/Users/Anas/AI-Strategy-Game/Game/Units/Unit.cpp
@@ -3312,6 +3480,27 @@ Game/CMakeFiles/AIStrategyGame.dir/Units/Unit.cpp.o
  /usr/include/c++/11/bits/stl_deque.h
  /usr/include/c++/11/bits/deque.tcc
  /usr/include/c++/11/bits/stl_queue.h
+ /mnt/c/Users/Anas/AI-Strategy-Game/Engine/Systems/SoundSystem.h
+ /usr/include/SFML/Audio.hpp
+ /usr/include/SFML/Audio/InputSoundFile.hpp
+ /usr/include/SFML/Audio/Export.hpp
+ /usr/include/SFML/Audio/Listener.hpp
+ /usr/include/SFML/Audio/Music.hpp
+ /usr/include/SFML/Audio/SoundStream.hpp
+ /usr/include/SFML/Audio/SoundSource.hpp
+ /usr/include/SFML/Audio/AlResource.hpp
+ /usr/include/SFML/Audio/OutputSoundFile.hpp
+ /usr/include/SFML/Audio/Sound.hpp
+ /usr/include/SFML/Audio/SoundBuffer.hpp
+ /usr/include/c++/11/set
+ /usr/include/c++/11/bits/stl_set.h
+ /usr/include/c++/11/bits/stl_multiset.h
+ /usr/include/SFML/Audio/SoundBufferRecorder.hpp
+ /usr/include/SFML/Audio/SoundRecorder.hpp
+ /usr/include/SFML/Audio/SoundFileFactory.hpp
+ /usr/include/SFML/Audio/SoundFileFactory.inl
+ /usr/include/SFML/Audio/SoundFileReader.hpp
+ /usr/include/SFML/Audio/SoundFileWriter.hpp
 
 Game/CMakeFiles/AIStrategyGame.dir/Units/Worker.cpp.o
  /mnt/c/Users/Anas/AI-Strategy-Game/Game/Units/Worker.cpp
@@ -3679,6 +3868,27 @@ Game/CMakeFiles/AIStrategyGame.dir/Units/Worker.cpp.o
  /usr/include/c++/11/bits/stl_deque.h
  /usr/include/c++/11/bits/deque.tcc
  /usr/include/c++/11/bits/stl_queue.h
+ /mnt/c/Users/Anas/AI-Strategy-Game/Engine/Systems/SoundSystem.h
+ /usr/include/SFML/Audio.hpp
+ /usr/include/SFML/Audio/InputSoundFile.hpp
+ /usr/include/SFML/Audio/Export.hpp
+ /usr/include/SFML/Audio/Listener.hpp
+ /usr/include/SFML/Audio/Music.hpp
+ /usr/include/SFML/Audio/SoundStream.hpp
+ /usr/include/SFML/Audio/SoundSource.hpp
+ /usr/include/SFML/Audio/AlResource.hpp
+ /usr/include/SFML/Audio/OutputSoundFile.hpp
+ /usr/include/SFML/Audio/Sound.hpp
+ /usr/include/SFML/Audio/SoundBuffer.hpp
+ /usr/include/c++/11/set
+ /usr/include/c++/11/bits/stl_set.h
+ /usr/include/c++/11/bits/stl_multiset.h
+ /usr/include/SFML/Audio/SoundBufferRecorder.hpp
+ /usr/include/SFML/Audio/SoundRecorder.hpp
+ /usr/include/SFML/Audio/SoundFileFactory.hpp
+ /usr/include/SFML/Audio/SoundFileFactory.inl
+ /usr/include/SFML/Audio/SoundFileReader.hpp
+ /usr/include/SFML/Audio/SoundFileWriter.hpp
 
 Game/CMakeFiles/AIStrategyGame.dir/main.cpp.o
  /mnt/c/Users/Anas/AI-Strategy-Game/Game/main.cpp
@@ -4051,4 +4261,25 @@ Game/CMakeFiles/AIStrategyGame.dir/main.cpp.o
  /usr/include/c++/11/bits/stl_deque.h
  /usr/include/c++/11/bits/deque.tcc
  /usr/include/c++/11/bits/stl_queue.h
+ /mnt/c/Users/Anas/AI-Strategy-Game/Engine/Systems/SoundSystem.h
+ /usr/include/SFML/Audio.hpp
+ /usr/include/SFML/Audio/InputSoundFile.hpp
+ /usr/include/SFML/Audio/Export.hpp
+ /usr/include/SFML/Audio/Listener.hpp
+ /usr/include/SFML/Audio/Music.hpp
+ /usr/include/SFML/Audio/SoundStream.hpp
+ /usr/include/SFML/Audio/SoundSource.hpp
+ /usr/include/SFML/Audio/AlResource.hpp
+ /usr/include/SFML/Audio/OutputSoundFile.hpp
+ /usr/include/SFML/Audio/Sound.hpp
+ /usr/include/SFML/Audio/SoundBuffer.hpp
+ /usr/include/c++/11/set
+ /usr/include/c++/11/bits/stl_set.h
+ /usr/include/c++/11/bits/stl_multiset.h
+ /usr/include/SFML/Audio/SoundBufferRecorder.hpp
+ /usr/include/SFML/Audio/SoundRecorder.hpp
+ /usr/include/SFML/Audio/SoundFileFactory.hpp
+ /usr/include/SFML/Audio/SoundFileFactory.inl
+ /usr/include/SFML/Audio/SoundFileReader.hpp
+ /usr/include/SFML/Audio/SoundFileWriter.hpp
 
