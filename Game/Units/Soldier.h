@@ -8,6 +8,7 @@ public:
     float getSpeed() const override { return 120.0f; }
     float getAttackDamage() const override { return 15.0f; }
     float getAttackRange() const override { return 60.0f; }
+    EntityRole getRole() const override { return EntityRole::Soldier; }
     
 protected:
     void setupComponents(Vector2 position) override;

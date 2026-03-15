@@ -8,9 +8,13 @@ void ResourceMine::setupComponents(Vector2 position) {
         render->spriteId = "resource_mine";
     }
     
-    // Resource collector to generate resources
-    auto collector = std::make_shared<ResourceCollectorComponent>();
-    collector->collectionRate = 10.0f;
-    collector->resourceType = "Gold";
-    entity->addComponent(collector);
+    // Mines are neutral world resources that workers gather from.
+    auto team = entity->getComponent<TeamComponent>();
+    if (team) {
+        team->faction = Faction::Neutral;
+        team->isAIControlled = false;
+    }
+
+    auto node = std::make_shared<ResourceNodeComponent>("Gold", 3000.0f);
+    entity->addComponent(node);
 }

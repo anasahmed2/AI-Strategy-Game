@@ -1,7 +1,10 @@
 #include "Building.h"
 
-std::shared_ptr<Entity> Building::create(std::shared_ptr<Engine> engine, Vector2 position) {
+std::shared_ptr<Entity> Building::create(std::shared_ptr<Engine> engine, Vector2 position,
+                                         Faction faction, bool isAIControlled) {
     this->engine = engine;
+    this->faction = faction;
+    this->isAIControlled = isAIControlled;
     
     // Create entity
     entity = engine->getRegistry()->createEntity();
@@ -32,10 +35,19 @@ void Building::setupComponents(Vector2 position) {
     auto render = std::make_shared<RenderComponent>("building");
     render->width = 64;
     render->height = 64;
-    render->layer = 0;
+    render->layer = 1;
     entity->addComponent(render);
+
+    auto team = std::make_shared<TeamComponent>(faction, isAIControlled);
+    entity->addComponent(team);
+
+    auto role = std::make_shared<RoleComponent>(getRole());
+    entity->addComponent(role);
     
     // Selection (buildings are selectable but not movable)
     auto selection = std::make_shared<SelectionComponent>(true);
     entity->addComponent(selection);
+
+    auto command = std::make_shared<CommandComponent>();
+    entity->addComponent(command);
 }

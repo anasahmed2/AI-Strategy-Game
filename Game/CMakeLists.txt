@@ -5,6 +5,7 @@ set(GAME_SOURCES
     Units/Worker.cpp
     Units/Soldier.cpp
     Units/Tank.cpp
+    Units/Scout.cpp
     Buildings/Building.cpp
     Buildings/Base.cpp
     Buildings/ResourceMine.cpp
@@ -17,6 +18,7 @@ set(GAME_HEADERS
     Units/Worker.h
     Units/Soldier.h
     Units/Tank.h
+    Units/Scout.h
     Buildings/Building.h
     Buildings/Base.h
     Buildings/ResourceMine.h

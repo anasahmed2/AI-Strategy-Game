@@ -1,41 +1,38 @@
-#include "Soldier.h"
+#include "Scout.h"
 
-void Soldier::setupComponents(Vector2 position) {
-    // Call parent setup
+void Scout::setupComponents(Vector2 position) {
     Unit::setupComponents(position);
-    
-    // Boost combat stats for soldier
-    auto combat = entity->getComponent<CombatComponent>();
-    if (combat) {
-        combat->attackDamage = getAttackDamage();
-        combat->attackRange = getAttackRange();
-        combat->attackCooldown = 1.5f;
-    }
-    
-    // Set render color
+
     auto render = entity->getComponent<RenderComponent>();
     if (render) {
-        render->spriteId = "soldier";
+        render->spriteId = "scout";
+        render->width = 28;
+        render->height = 28;
+    }
+
+    auto combat = entity->getComponent<CombatComponent>();
+    if (combat) {
+        combat->attackCooldown = 0.9f;
+        combat->attackDamage = getAttackDamage();
+        combat->attackRange = getAttackRange();
     }
 }
 
-void Soldier::setupAI() {
+void Scout::setupAI() {
     Unit::setupAI();
-    
+
     auto ai = entity->getComponent<AIComponent>();
-    if (!ai) return;
+    auto aiConfig = entity->getComponent<AIConfigComponent>();
+    if (aiConfig) {
+        aiConfig->patrolRadius = 220.0f;
+        aiConfig->engagementRange = 260.0f;
+    }
+
+    if (!ai) {
+        return;
+    }
 
     auto root = std::make_shared<Selector>();
-
-    auto retreatSequence = std::make_shared<Sequence>();
-    retreatSequence->addChild(std::make_shared<ConditionNode>([](Blackboard& blackboard) {
-        float ratio = blackboard.get<float>("healthRatio");
-        return ratio > 0.0f && ratio < 0.28f;
-    }));
-    retreatSequence->addChild(std::make_shared<ActionNode>([](Blackboard& blackboard) {
-        blackboard.set("desiredAction", std::string("retreat"));
-        return BehaviorStatus::Success;
-    }));
 
     auto attackSequence = std::make_shared<Sequence>();
     attackSequence->addChild(std::make_shared<ConditionNode>([](Blackboard& blackboard) {
@@ -51,9 +48,7 @@ void Soldier::setupAI() {
         return BehaviorStatus::Success;
     });
 
-    root->addChild(retreatSequence);
     root->addChild(attackSequence);
     root->addChild(patrolAction);
-
     ai->behaviorTree->setRoot(root);
 }
