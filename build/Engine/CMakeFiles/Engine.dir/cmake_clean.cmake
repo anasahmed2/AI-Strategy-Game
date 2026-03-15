@@ -33,6 +33,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Engine.dir/Systems/ResourceSystem.cpp.o.d"
   "CMakeFiles/Engine.dir/Systems/SelectionSystem.cpp.o"
   "CMakeFiles/Engine.dir/Systems/SelectionSystem.cpp.o.d"
+  "CMakeFiles/Engine.dir/Systems/SoundSystem.cpp.o"
+  "CMakeFiles/Engine.dir/Systems/SoundSystem.cpp.o.d"
   "libEngine.a"
   "libEngine.pdb"
 )

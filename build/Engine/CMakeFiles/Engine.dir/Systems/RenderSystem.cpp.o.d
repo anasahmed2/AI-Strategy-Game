@@ -280,6 +280,7 @@ Engine/CMakeFiles/Engine.dir/Systems/RenderSystem.cpp.o: \
  /usr/include/SFML/Graphics/Text.hpp \
  /usr/include/SFML/Graphics/VertexBuffer.hpp \
  /mnt/c/Users/Anas/AI-Strategy-Game/Engine/Systems/SelectionSystem.h \
+ /mnt/c/Users/Anas/AI-Strategy-Game/Engine/Systems/ResourceSystem.h \
  /mnt/c/Users/Anas/AI-Strategy-Game/Engine/Systems/../AI/AISystem.h \
  /mnt/c/Users/Anas/AI-Strategy-Game/Engine/Systems/../AI/StateMachine.h \
  /mnt/c/Users/Anas/AI-Strategy-Game/Engine/Systems/../AI/BehaviorTree.h \

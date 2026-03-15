@@ -213,21 +213,25 @@ void GameManager::handleProduction() {
         if (resourceSystem->spendResource(Faction::Player, "Gold", 75.0f)) {
             spawnWorker(spawnPoint, Faction::Player, false);
             actionCooldown = 0.18f;
+            if (engine->getSoundSystem()) engine->getSoundSystem()->playProduce();
         }
     } else if (engine->getInputSystem()->isKeyPressed(sf::Keyboard::Num2)) {
         if (resourceSystem->spendResource(Faction::Player, "Gold", 120.0f)) {
             spawnSoldier(spawnPoint, Faction::Player, false);
             actionCooldown = 0.18f;
+            if (engine->getSoundSystem()) engine->getSoundSystem()->playProduce();
         }
     } else if (engine->getInputSystem()->isKeyPressed(sf::Keyboard::Num3)) {
         if (resourceSystem->spendResource(Faction::Player, "Gold", 220.0f)) {
             spawnTank(spawnPoint, Faction::Player, false);
             actionCooldown = 0.20f;
+            if (engine->getSoundSystem()) engine->getSoundSystem()->playProduce();
         }
     } else if (engine->getInputSystem()->isKeyPressed(sf::Keyboard::Num4)) {
         if (resourceSystem->spendResource(Faction::Player, "Gold", 140.0f)) {
             spawnScout(spawnPoint, Faction::Player, false);
             actionCooldown = 0.18f;
+            if (engine->getSoundSystem()) engine->getSoundSystem()->playProduce();
         }
     }
 }

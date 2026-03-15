@@ -12,6 +12,7 @@ set(ENGINE_SOURCES
     Systems/EventSystem.cpp
     Systems/SelectionSystem.cpp
     Systems/MovementSystem.cpp
+    Systems/SoundSystem.cpp
     AI/StateMachine.cpp
     AI/BehaviorTree.cpp
     AI/AISystem.cpp
@@ -43,4 +44,4 @@ set(ENGINE_HEADERS
 
 add_library(Engine STATIC ${ENGINE_SOURCES} ${ENGINE_HEADERS})
 target_include_directories(Engine PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
-target_link_libraries(Engine PUBLIC sfml-graphics sfml-window sfml-system)
+target_link_libraries(Engine PUBLIC sfml-graphics sfml-window sfml-system sfml-audio)

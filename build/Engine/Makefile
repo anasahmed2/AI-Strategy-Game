@@ -538,6 +538,30 @@ Systems/SelectionSystem.cpp.s:
 	cd /mnt/c/Users/Anas/AI-Strategy-Game/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/Engine.dir/build.make Engine/CMakeFiles/Engine.dir/Systems/SelectionSystem.cpp.s
 .PHONY : Systems/SelectionSystem.cpp.s
 
+Systems/SoundSystem.o: Systems/SoundSystem.cpp.o
+.PHONY : Systems/SoundSystem.o
+
+# target to build an object file
+Systems/SoundSystem.cpp.o:
+	cd /mnt/c/Users/Anas/AI-Strategy-Game/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/Engine.dir/build.make Engine/CMakeFiles/Engine.dir/Systems/SoundSystem.cpp.o
+.PHONY : Systems/SoundSystem.cpp.o
+
+Systems/SoundSystem.i: Systems/SoundSystem.cpp.i
+.PHONY : Systems/SoundSystem.i
+
+# target to preprocess a source file
+Systems/SoundSystem.cpp.i:
+	cd /mnt/c/Users/Anas/AI-Strategy-Game/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/Engine.dir/build.make Engine/CMakeFiles/Engine.dir/Systems/SoundSystem.cpp.i
+.PHONY : Systems/SoundSystem.cpp.i
+
+Systems/SoundSystem.s: Systems/SoundSystem.cpp.s
+.PHONY : Systems/SoundSystem.s
+
+# target to generate assembly for a file
+Systems/SoundSystem.cpp.s:
+	cd /mnt/c/Users/Anas/AI-Strategy-Game/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/Engine.dir/build.make Engine/CMakeFiles/Engine.dir/Systems/SoundSystem.cpp.s
+.PHONY : Systems/SoundSystem.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -598,6 +622,9 @@ help:
 	@echo "... Systems/SelectionSystem.o"
 	@echo "... Systems/SelectionSystem.i"
 	@echo "... Systems/SelectionSystem.s"
+	@echo "... Systems/SoundSystem.o"
+	@echo "... Systems/SoundSystem.i"
+	@echo "... Systems/SoundSystem.s"
 .PHONY : help
 
 

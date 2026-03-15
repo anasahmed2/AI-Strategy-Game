@@ -255,6 +255,7 @@ Game/AIStrategyGame: Game/CMakeFiles/AIStrategyGame.dir/build.make
 Game/AIStrategyGame: Engine/libEngine.a
 Game/AIStrategyGame: /usr/lib/x86_64-linux-gnu/libsfml-graphics.so.2.5.1
 Game/AIStrategyGame: /usr/lib/x86_64-linux-gnu/libsfml-window.so.2.5.1
+Game/AIStrategyGame: /usr/lib/x86_64-linux-gnu/libsfml-audio.so.2.5.1
 Game/AIStrategyGame: /usr/lib/x86_64-linux-gnu/libsfml-system.so.2.5.1
 Game/AIStrategyGame: Game/CMakeFiles/AIStrategyGame.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/Anas/AI-Strategy-Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable AIStrategyGame"

@@ -33,9 +33,13 @@ Engine::Engine(int windowWidth, int windowHeight, const std::string& title) {
     // Connect render system to window
     renderSystem->setRenderTarget(window.get());
     renderSystem->setSelectionSystem(selectionSystem);
+    renderSystem->setResourceSystem(resourceSystem);
     
     // Reset clock
     clock.restart();
+
+    // Sound system (procedural — works without audio files)
+    soundSystem = std::make_shared<SoundSystem>();
 }
 
 Engine::~Engine() {
@@ -78,6 +82,8 @@ void Engine::pollEvents() {
             }
 
             leftDragInProgress = false;
+            // Play selection sound
+            if (soundSystem) soundSystem->playSelect();
         }
 
         if (event.type == sf::Event::MouseButtonReleased && event.mouseButton.button == sf::Mouse::Right) {
@@ -140,6 +146,16 @@ void Engine::pollEvents() {
                     selectedCommand->defendPosition = clickPos;
                     assignPathToEntity(selected, clickPos);
                 }
+            }
+            // Play command sound
+            if (soundSystem && !selectedEntities.empty()) {
+                bool anyAttack = false;
+                for (auto& e : selectedEntities) {
+                    auto cmd = e->getComponent<CommandComponent>();
+                    if (cmd && cmd->type == CommandType::Attack) { anyAttack = true; break; }
+                }
+                if (anyAttack) soundSystem->playAttack();
+                else          soundSystem->playMove();
             }
         }
     }

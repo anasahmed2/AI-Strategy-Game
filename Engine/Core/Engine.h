@@ -13,6 +13,7 @@
 #include "../Systems/MovementSystem.h"
 #include "../AI/AISystem.h"
 #include "../Pathfinding/Pathfinder.h"
+#include "../Systems/SoundSystem.h"
 
 class Engine {
 public:
@@ -31,6 +32,7 @@ public:
     std::shared_ptr<MovementSystem> getMovementSystem() { return movementSystem; }
     std::shared_ptr<AISystem> getAISystem() { return aiSystem; }
     std::shared_ptr<Pathfinder> getPathfinder() { return pathfinder; }
+    std::shared_ptr<SoundSystem> getSoundSystem() { return soundSystem; }
     
     // Window management
     sf::RenderWindow* getWindow() { return window.get(); }
@@ -63,9 +65,11 @@ private:
     std::shared_ptr<SelectionSystem> selectionSystem;
     std::shared_ptr<MovementSystem> movementSystem;
     std::shared_ptr<AISystem> aiSystem;
-    
+
     // AI & Pathfinding
     std::shared_ptr<Pathfinder> pathfinder;
+
+    std::shared_ptr<SoundSystem> soundSystem;
     
     // Timing
     sf::Clock clock;

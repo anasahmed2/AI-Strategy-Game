@@ -3456,9 +3456,16 @@ Engine/CMakeFiles/Engine.dir/Systems/RenderSystem.cpp.o: ../Engine/Systems/Rende
   /usr/include/SFML/Graphics/Text.hpp \
   /usr/include/SFML/Graphics/VertexBuffer.hpp \
   ../Engine/Systems/SelectionSystem.h \
+  ../Engine/AI/AISystem.h \
+  ../Engine/AI/StateMachine.h \
+  ../Engine/AI/BehaviorTree.h \
+  ../Engine/AI/Blackboard.h \
+  /usr/include/c++/11/any \
   /usr/include/c++/11/iostream \
   /usr/include/c++/11/istream \
-  /usr/include/c++/11/bits/istream.tcc
+  /usr/include/c++/11/bits/istream.tcc \
+  /usr/include/c++/11/sstream \
+  /usr/include/c++/11/bits/sstream.tcc
 
 Engine/CMakeFiles/Engine.dir/Systems/ResourceSystem.cpp.o: ../Engine/Systems/ResourceSystem.cpp \
   /usr/include/stdc-predef.h \
@@ -4009,6 +4016,8 @@ Engine/CMakeFiles/Engine.dir/Systems/SelectionSystem.cpp.o: ../Engine/Systems/Se
 
 ../Engine/Systems/ResourceSystem.cpp:
 
+/usr/include/c++/11/sstream:
+
 ../Engine/Systems/RenderSystem.cpp:
 
 ../Engine/Systems/PhysicsSystem.cpp:
@@ -4376,6 +4385,8 @@ Engine/CMakeFiles/Engine.dir/Systems/SelectionSystem.cpp.o: ../Engine/Systems/Se
 /usr/include/x86_64-linux-gnu/bits/byteswap.h:
 
 /usr/include/c++/11/bits/vector.tcc:
+
+/usr/include/c++/11/bits/sstream.tcc:
 
 /usr/include/c++/11/new:
 
